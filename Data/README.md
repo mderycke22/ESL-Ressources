@@ -1,5 +1,7 @@
 # Exemple de données
 
+![Exemple de données dans DB Browser for SQLite](../Images/data_dbbrowser_screenshot.png)
+
 Fichiers de base de données dans la base de données du projet.
 
 ## Comment récupérer ses propres données ?
