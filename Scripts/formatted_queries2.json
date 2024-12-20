@@ -1,0 +1,628 @@
+{
+    "Queries": [
+        {
+            "Value": "SELECT SQLITE_VERSION() AS SQLITE_VERSION",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 88,
+            "callLine": 91
+        },
+        {
+            "Value": "SELECT _ID FROM FEEDS WHERE ACTIVE = 1",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 106,
+            "callLine": 112
+        },
+        {
+            "Value": "SELECT _ID FROM FEEDS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 106,
+            "callLine": 112
+        },
+        {
+            "Value": "SELECT _ID FROM SOCIAL_FEEDS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 125,
+            "callLine": 128
+        },
+        {
+            "Value": "DELETE FROM STORY_TABLE WHERE STORY_TIMESTAMP < ? AND STORY_TEXT_STORY_HASH NOT IN (SELECT READING_SESSION_STORY_HASH FROM READING_SESSION_TABLE)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 144,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORY_TABLE WHERE WHERE STORY_READ = 1 AND STORY_TEXT_STORY_HASH NOT IN (SELECT READING_SESSION_STORY_HASH FROM READING_SESSION_TABLE)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 161,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORYTEXT WHERE STORY_HASH NOT IN ( SELECT STORY_HASH FROM STORIES)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 172,
+            "callLine": 177
+        },
+        {
+            "Value": "VACUUM",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 180,
+            "callLine": 181
+        },
+        {
+            "Value": "DELETE FROM FEED_TABLE WHERE FEED_ID = ?",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 184,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORY_TABLE WHERE STORY_FEED_ID = ?",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 184,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SOCIALFEED_TABLE WHERE SOCIAL_FEED_ID = ?",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 190,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORY_TABLE WHERE STORY_FEED_ID = ?",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 190,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SOCIALFEED_STORY_MAP_TABLE WHERE SOCIALFEED_STORY_USER_ID = ?",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 190,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SAVED_SEARCH WHERE SAVED_SEARCH_FEED_ID = '{{NA}}' AND SAVED_SEARCH_QUERY = '{{NA}}'",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 197,
+            "callLine": 201
+        },
+        {
+            "Value": "VACUUM",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 204,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORY_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 204,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STORY_TEXT_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 204,
+            "callLine": 0
+        },  
+        {
+            "Value": "SELECT * FROM FEED_TABLE WHERE FEED_ID = ?;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 210,
+            "callLine": 0
+        }, 
+        {
+            "Value": "INSERT OR REPLACE INTO FEED_TABLE (...) VALUES (...);",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 220,
+            "callLine": 1317
+        },
+        {
+            "Value": "INSERT OR REPLACE INTO {table} (...) VALUES (...);",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": [265,266,267,268,269,346,355,398,517,1509,1541]
+        },
+        {
+            "Value": "INSERT OR REPLACE INTO {table} (...) VALUES (...);",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 242,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM FEED_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM FOLDER_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SOCIALFEED_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SOCIALFEED_STORY_MAP_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM COMMENT_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM REPLY_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM STARREDCOUNTS_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },
+        {
+            "Value": "DELETE FROM SAVED_SEARCH_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 249,
+            "callLine": 0
+        },     
+        {
+            "Value": "SELECT STORY_HASH FROM STORY_TABLE WHERE STORY_READ = 0;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 279,
+            "callLine": 0
+        },      
+        {
+            "Value": "SELECT STORY_HASH FROM STORIES WHERE READ = 0",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 279,
+            "callLine": 283
+        },
+        {
+            "Value": "SELECT STORY_HASH FROM STORIES WHERE STARRED = 1",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 292,
+            "callLine": 296
+        },
+        {
+            "Value": "SELECT STORY_IMAGE_URLS FROM STORY_TABLE;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 305,
+            "callLine": 0
+        },
+        {
+            "Value": "SELECT STORY_THUMBNAIL_URL FROM STORY_TABLE",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 315,
+            "callLine": 0
+        },
+        {
+            "Value": "SELECT _ID FROM FEEDS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 531,
+            "callLine": 540
+        },
+        {
+            "Value": "UPDATE FEEDS SET NT = NT{{NA}} WHERE _ID = {{NA}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 666,
+            "callLine": 730
+        },
+        {
+            "Value": "UPDATE FEEDS SET PS = PS{{NA}} WHERE _ID = {{NA}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 666,
+            "callLine": 730
+        },
+        {
+            "Value": "{{NA}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 666,
+            "callLine": 735
+        },
+        {
+            "Value": "",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 883,
+            "callLine": 891
+        },
+        {
+            "Value": "SELECT * FROM STORY_ACTIONS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 907,
+            "callLine": 909
+        },
+        {
+            "Value": "UPDATE STORY_ACTIONS SET TRIED = TRIED + 1 WHERE _ID = {{QUESTION}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 912,
+            "callLine": 917
+        },
+        {
+            "Value": "SELECT * FROM STORY_ACTIONS WHERE TRIED < 1",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 921,
+            "callLine": 923
+        },
+        {
+            "Value": "UPDATE STARRED_COUNTS SET COUNT = COUNT{{NA}} WHERE TAG = '{{NA}}'",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 933,
+            "callLine": 973
+        },
+        {
+            "Value": "SELECT STORY_TEXT FROM STORYTEXT WHERE STORY_HASH = {{QUESTION}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1010,
+            "callLine": 1014
+        },
+        {
+            "Value": "SELECT CONTENT FROM STORIES WHERE STORY_HASH = {{QUESTION}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1026,
+            "callLine": 1030
+        },
+        {
+            "Value": "SELECT _ID FROM FEEDS WHERE NOTIFICATION_FILTER = '{{NA}}' OR NOTIFICATION_FILTER = '{{NA}}'",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1109,
+            "callLine": 1113
+        },
+        {
+            "Value": "INSERT INTO READING_SESSION (SESSION_STORY_HASH)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1180,
+            "callLine": 1198
+        },
+        {
+            "Value": "{{NA}} ORDER BY LAST_READ_DATE DESC",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+        {
+            "Value": "{{NA}}FEED_ID = {{NA}} ORDER BY TIMESTAMP DESC LIMIT 20",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+        {
+            "Value": "{{NA}} ORDER BY SHAREDDATE DESC",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+        {
+            "Value": "{{NA}} ORDER BY {{NA}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+        {
+            "Value": "{{NA}}ACTIVE = 1 ORDER BY TIMESTAMP DESC LIMIT 20",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+        {
+            "Value": "{{NA}}",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 1588,
+            "callLine": 1596
+        },
+
+        {
+            "Value": "CREATE TABLE FEEDS (_ID INTEGER PRIMARY KEY, ACTIVE TEXT, ADDRESS TEXT, FAVICON_COLOR TEXT, FAVICON_URL TEXT, PS INTEGER, NG INTEGER, NT INTEGER, FAVICON_FADE TEXT, FAVICON_TEXT_COLOR TEXT, FAVICON_BORDER TEXT, LINK TEXT, SUBSCRIBERS TEXT, FEED_NAME TEXT, OPENS INTEGER, AVERAGE_STORIES_PER_MONTH INTEGER, LAST_STORY_DATE TEXT, UPDATED_SECONDS INTEGER, NOTIFICATION_TYPES TEXT, NOTIFICATION_FILTER TEXT, FETCH_PENDING TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 18
+        },
+        {
+            "Value": "CREATE TABLE SOCIAL_FEEDS (_ID INTEGER PRIMARY KEY, PS INTEGER, NG INTEGER, NT INTEGER, SOCIAL_FEED_ICON TEXT, SOCIAL_FEED_TITLE TEXT, SOCIAL_FEED_NAME TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 19
+        },
+        {
+            "Value": "CREATE TABLE FOLDERS (FOLDER_NAME TEXT PRIMARY KEY, FOLDER_PARENT_NAMES TEXT, FOLDER_CHILDREN_NAMES TEXT, FOLDER_FEEDIDS TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 20
+        },
+        {
+            "Value": "CREATE TABLE USER_TABLE (PHOTO_URL TEXT, _ID INTEGER PRIMARY KEY, USERNAME TEXT, LOCATION TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 21
+        },
+        {
+            "Value": "CREATE TABLE STORIES (STORY_HASH TEXT PRIMARY KEY, AUTHORS TEXT, CONTENT TEXT, SHORT_CONTENT TEXT, TIMESTAMP INTEGER, SHAREDDATE INTEGER, FEED_ID INTEGER, _ID TEXT, INTELLIGENCE_AUTHORS INTEGER, INTELLIGENCE_FEED INTEGER, INTELLIGENCE_TAGS INTEGER, INTELLIGENCE_TITLE INTEGER, INTELLIGENCE_TOTAL INTEGER, SOCIALUSERID TEXT, SOURCEUSERID TEXT, SHARED_USER_IDS TEXT, COMMENT_USER_IDS TEXT, TAGS TEXT, USER_TAGS TEXT, PERMALINK TEXT, READ INTEGER, STARRED INTEGER, STARRED_DATE INTEGER, INFREQUENT INTEGER, TITLE TEXT, IMAGE_URLS TEXT, LAST_READ_DATE INTEGER, SEARCH_HIT TEXT, THUMBNAIL_URL TEXT, HAS_MODIFICATIONS INTEGER)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 22
+        },
+        {
+            "Value": "CREATE TABLE READING_SESSION (SESSION_STORY_HASH TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 23
+        },
+        {
+            "Value": "CREATE TABLE STORYTEXT (STORY_HASH TEXT, STORY_TEXT TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 24
+        },
+        {
+            "Value": "CREATE TABLE COMMENTS (COMMENT_DATE TEXT, COMMENT_SHAREDDATE TEXT, COMMENT_SOURCE_USER TEXT, _ID TEXT PRIMARY KEY, COMMENT_LIKING_USERS TEXT, COMMENT_BYFRIEND TEXT, COMMENT_STORYID TEXT, COMMENT_TEXT TEXT, COMMENT_USERID TEXT, COMMENT_ISPSEUDO TEXT, COMMENT_ISPLACEHOLDER TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 25
+        },
+        {
+            "Value": "CREATE TABLE COMMENT_REPLIES (REPLY_DATE TEXT, REPLY_SHORTDATE TEXT, _ID TEXT PRIMARY KEY, COMMENT_ID TEXT, REPLY_TEXT TEXT, REPLY_USERID TEXT, REPLY_ISPLACEHOLDER TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 26
+        },
+        {
+            "Value": "CREATE TABLE CLASSIFIERS (_ID TEXT, KEY TEXT, TYPE TEXT, VALUE TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 27
+        },
+        {
+            "Value": "CREATE TABLE SOCIALFEED_STORY_MAP (SOCIALFEED_STORY_STORYID TEXT NOT NULL, SOCIALFEED_STORY_USER_ID INTEGER NOT NULL, PRIMARY KEY (SOCIALFEED_STORY_STORYID, SOCIALFEED_STORY_USER_ID) )",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 28
+        },
+        {
+            "Value": "CREATE TABLE STARRED_COUNTS (COUNT INTEGER NOT NULL, TAG TEXT, FEED_ID TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 29
+        },
+        {
+            "Value": "CREATE TABLE SAVED_SEARCH (SAVED_SEARCH_TITLE TEXT, SAVED_SEARCH_FAVICON TEXT, SAVED_SEARCH_ADDRESS TEXT, SAVED_SEARCH_QUERY TEXT, SAVED_SEARCH_FEED_ID)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 30
+        },
+        {
+            "Value": "CREATE TABLE STORY_ACTIONS (_ID INTEGER PRIMARY KEY AUTOINCREMENT, TIME INTEGER NOT NULL, TRIED INTEGER, ACTION_PARAMS TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 31
+        },
+        {
+            "Value": "CREATE TABLE NOTIFY_DIMISS (STORY_HASH TEXT, TIME INTEGER NOT NULL )",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 32
+        },
+        {
+            "Value": "CREATE TABLE FEED_TAGS (FEED_ID TEXT, TAG TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 33
+        },
+        {
+            "Value": "CREATE TABLE FEED_AUTHORS (FEED_ID TEXT, AUTHOR TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 34
+        },
+        {
+            "Value": "CREATE TABLE SYNC_METADATA (KEY TEXT PRIMARY KEY, VALUE TEXT)",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 16,
+            "callLine": 35
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS FEEDS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 41
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS SOCIAL_FEEDS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 42
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS FOLDERS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 43
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS STORIES",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 44
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS READING_SESSION",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 45
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS STORYTEXT",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 46
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS USER_TABLE",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 47
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS COMMENTS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 48
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS COMMENT_REPLIES",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 49
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS CLASSIFIERS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 50
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS SOCIALFEED_STORY_MAP",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 51
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS STARRED_COUNTS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 52
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS SAVED_SEARCH",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 53
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS STORY_ACTIONS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 54
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS NOTIFY_DIMISS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 55
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS FEED_TAGS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 56
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS FEED_AUTHORS",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 57
+        },
+        {
+            "Value": "DROP TABLE IF EXISTS SYNC_METADATA",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "foundBy": "SQLInspect",
+            "methodLine": 38,
+            "callLine": 58
+        }
+    ]
+}
