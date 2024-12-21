@@ -1,0 +1,1774 @@
+{
+    "Queries": [
+        {
+            "id": "1",
+            "Value": "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, opens INTEGER, average_stories_per_month INTEGER, last_story_date TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT, fetch_pending TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "18",
+            "ExecString": "db.execSQL(DatabaseConstants.FEED_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 18
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "Value": "CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "19",
+            "ExecString": "db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 19
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "Value": "CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "20",
+            "ExecString": "db.execSQL(DatabaseConstants.FOLDER_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 20
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "Value": "CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "21",
+            "ExecString": "db.execSQL(DatabaseConstants.USER_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 21
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "Value": "CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, infrequent INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT, thumbnail_url TEXT, has_modifications INTEGER)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "22",
+            "ExecString": "db.execSQL(DatabaseConstants.STORY_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 22
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "Value": "CREATE TABLE reading_session (session_story_hash TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "23",
+            "ExecString": "db.execSQL(DatabaseConstants.READING_SESSION_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 23
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "Value": "CREATE TABLE storytext (story_hash TEXT, story_text TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "24",
+            "ExecString": "db.execSQL(DatabaseConstants.STORY_TEXT_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 24
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "Value": "CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT, comment_isplaceholder TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "25",
+            "ExecString": "db.execSQL(DatabaseConstants.COMMENT_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 25
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "Value": "CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT, reply_isplaceholder TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "26",
+            "ExecString": "db.execSQL(DatabaseConstants.REPLY_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 26
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "Value": "CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "27",
+            "ExecString": "db.execSQL(DatabaseConstants.CLASSIFIER_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 27
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "Value": "CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "28",
+            "ExecString": "db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 28
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "Value": "CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "29",
+            "ExecString": "db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 29
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "Value": "CREATE TABLE saved_search (saved_search_title TEXT, saved_search_favicon TEXT, saved_search_address TEXT, saved_search_query TEXT, saved_search_feed_id)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "30",
+            "ExecString": "db.execSQL(DatabaseConstants.SAVED_SEARCH_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 30
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "Value": "CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, tried INTEGER, action_params TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "31",
+            "ExecString": "db.execSQL(DatabaseConstants.ACTION_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 31
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "Value": "CREATE TABLE notify_dimiss (story_hash TEXT, time INTEGER NOT NULL )",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "32",
+            "ExecString": "db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 32
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "Value": "CREATE TABLE feed_tags (feed_id TEXT, tag TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "33",
+            "ExecString": "db.execSQL(DatabaseConstants.FEED_TAGS_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 33
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "Value": "CREATE TABLE feed_authors (feed_id TEXT, author TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "34",
+            "ExecString": "db.execSQL(DatabaseConstants.FEED_AUTHORS_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 34
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "Value": "CREATE TABLE sync_metadata (key TEXT PRIMARY KEY, value TEXT)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "35",
+            "ExecString": "db.execSQL(DatabaseConstants.SYNC_METADATA_SQL)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 16,
+                    "callLine": 35
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "Value": "DROP TABLE IF EXISTS feeds",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "41",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.FEED_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 41
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "Value": "DROP TABLE IF EXISTS social_feeds",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "42",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 42
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "Value": "DROP TABLE IF EXISTS folders",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "43",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 43
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "Value": "DROP TABLE IF EXISTS stories",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "44",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.STORY_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 44
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "Value": "DROP TABLE IF EXISTS reading_session",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "45",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 45
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "Value": "DROP TABLE IF EXISTS storytext",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "46",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 46
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "Value": "DROP TABLE IF EXISTS user_table",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "47",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.USER_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 47
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "Value": "DROP TABLE IF EXISTS comments",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "48",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 48
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "Value": "DROP TABLE IF EXISTS comment_replies",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "49",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.REPLY_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 49
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "Value": "DROP TABLE IF EXISTS classifiers",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "50",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 50
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "Value": "DROP TABLE IF EXISTS socialfeed_story_map",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "51",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 51
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "Value": "DROP TABLE IF EXISTS starred_counts",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "52",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 52
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "Value": "DROP TABLE IF EXISTS saved_search",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "53",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.SAVED_SEARCH_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 53
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "Value": "DROP TABLE IF EXISTS story_actions",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "54",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.ACTION_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 54
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "Value": "DROP TABLE IF EXISTS notify_dimiss",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "55",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 55
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "Value": "DROP TABLE IF EXISTS feed_tags",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "56",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.FEED_TAGS_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 56
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "Value": "DROP TABLE IF EXISTS feed_authors",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "57",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.FEED_AUTHORS_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 57
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "Value": "DROP TABLE IF EXISTS sync_metadata",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabase",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": "58",
+            "ExecString": "db.execSQL(drop + DatabaseConstants.SYNC_METADATA_TABLE)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+                    "methodLine": 38,
+                    "callLine": 58
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "Value": "SELECT sqlite_version() AS sqlite_version",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "91",
+            "ExecString": "dbRO.rawQuery(\"SELECT sqlite_version() AS sqlite_version\",null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getEngineVersion()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 88,
+                    "callLine": 91
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "Value": "SELECT _id FROM feeds",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "112",
+            "ExecString": "dbRO.rawQuery(q1,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 106,
+                    "callLine": 112
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "Value": "SELECT _id FROM feeds WHERE active = 1",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "112",
+            "ExecString": "dbRO.rawQuery(q1,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 106,
+                    "callLine": 112
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "Value": "SELECT _id FROM social_feeds",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "128",
+            "ExecString": "dbRO.rawQuery(q1,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 125,
+                    "callLine": 128
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "Value": "DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "177",
+            "ExecString": "dbRW.execSQL(q)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 172,
+                    "callLine": 177
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "Value": "VACUUM",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "181",
+            "ExecString": "dbRW.execSQL(\"VACUUM\")",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.vacuum()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 180,
+                    "callLine": 181
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "Value": "DELETE FROM saved_search WHERE saved_search_feed_id = '{{na}}' AND saved_search_query = '{{na}}'",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "201",
+            "ExecString": "dbRW.execSQL(q)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.deleteSavedSearch(java.lang.String,java.lang.String)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 197,
+                    "callLine": 201
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "Value": "SELECT story_hash FROM stories WHERE read = 0",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "283",
+            "ExecString": "dbRO.rawQuery(q,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 279,
+                    "callLine": 283
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "Value": "SELECT story_hash FROM stories WHERE starred = 1",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "296",
+            "ExecString": "dbRO.rawQuery(q,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getStarredStoryHashes()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 292,
+                    "callLine": 296
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "Value": "SELECT _id FROM feeds",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "540",
+            "ExecString": "dbRO.rawQuery(q1,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(main.java.com.newsblur.database.Story[])",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 531,
+                    "callLine": 540
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "Value": "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "730",
+            "ExecString": "dbRW.execSQL(q.toString())",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 666,
+                    "callLine": 730
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "Value": "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "730",
+            "ExecString": "dbRW.execSQL(q.toString())",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 666,
+                    "callLine": 730
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "Value": "{{na}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "735",
+            "ExecString": "dbRW.execSQL(q.toString())",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 666,
+                    "callLine": 735
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "Value": "",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "891",
+            "ExecString": "dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[0]))",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 883,
+                    "callLine": 891
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "Value": "SELECT * FROM story_actions",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "909",
+            "ExecString": "dbRO.rawQuery(q,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getActions()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 907,
+                    "callLine": 909
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "Value": "UPDATE story_actions SET tried = tried + 1 WHERE _id = {{question}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "917",
+            "ExecString": "dbRW.execSQL(q,new String[]{actionId})",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.incrementActionTried(java.lang.String)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 912,
+                    "callLine": 917
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "Value": "SELECT * FROM story_actions WHERE tried < 1",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "923",
+            "ExecString": "dbRO.rawQuery(q,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getUntriedActionCount()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 921,
+                    "callLine": 923
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "Value": "UPDATE starred_counts SET count = count{{na}} WHERE tag = '{{na}}'",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "973",
+            "ExecString": "dbRW.execSQL(q.toString())",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,java.util.List,boolean)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 933,
+                    "callLine": 973
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "Value": "SELECT story_text FROM storytext WHERE story_hash = {{question}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1014",
+            "ExecString": "dbRO.rawQuery(q,new String[]{hash})",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1010,
+                    "callLine": 1014
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "Value": "SELECT content FROM stories WHERE story_hash = {{question}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1030",
+            "ExecString": "dbRO.rawQuery(q,new String[]{hash})",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1026,
+                    "callLine": 1030
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "Value": "SELECT _id FROM feeds WHERE notification_filter = '{{na}}' OR notification_filter = '{{na}}'",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1113",
+            "ExecString": "dbRO.rawQuery(q,null)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFeeds()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1109,
+                    "callLine": 1113
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "Value": "INSERT INTO reading_session (session_story_hash) ",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1198",
+            "ExecString": "dbRW.execSQL(q.toString(),selArgs.toArray(new String[0]))",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter,main.java.com.newsblur.database.ReadFilter)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1180,
+                    "callLine": 1198
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "Value": "{{na}} ORDER BY last_read_date DESC",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1157,
+                    "callLine": 1172
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "Value": "{{na}}feed_id = {{na}} ORDER BY timestamp DESC LIMIT 20",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1125,
+                    "callLine": 1140
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "Value": "{{na}} ORDER BY sharedDate DESC",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1157,
+                    "callLine": 1172
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "Value": "{{na}} ORDER BY {{na}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1157,
+                    "callLine": 1172
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "Value": "{{na}}active = 1 ORDER BY timestamp DESC LIMIT 20",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1125,
+                    "callLine": 1140
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "Value": "{{na}}",
+            "HotspotFinder": "AndroidHotspotFinder",
+            "ExecPackage": "",
+            "ExecClass": "BlurDatabaseHelper",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": "1596",
+            "ExecString": "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+            "CallStack": [
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1588,
+                    "callLine": 1596
+                },
+                {
+                    "method": "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFocusStoriesCursor()",
+                    "file": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+                    "methodLine": 1101,
+                    "callLine": 1102
+                }
+            ]
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 148,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 163,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 186,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 187,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 192,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 193,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 194,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 206,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STORY_TEXT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 207,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 257,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FOLDER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 258,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 259,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 260,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 261,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 262,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 263,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.STARREDCOUNTS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 264,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.CLASSIFIER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 397,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 464,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 466,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.ACTION_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 930,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.READING_SESSION_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1177,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.SYNC_METADATA_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1288,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.CLASSIFIER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1313,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1386,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1390,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.NOTIFY_DISMISS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1490,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FEED_TAGS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1498,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "DELETE FROM DatabaseConstants.FEED_AUTHORS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1530,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 222,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.CLASSIFIER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 232,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FOLDER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 265,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 266,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.SOCIALFEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 267,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.STARREDCOUNTS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 268,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.SAVED_SEARCH_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 269,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.USER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 346,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 355,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.CLASSIFIER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 398,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.USER_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 517,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_TAGS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1509,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_AUTHORS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1541,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.READING_SESSION_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 371,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.STORY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 436,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 442,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.COMMENT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 467,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.REPLY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 470,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 558,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.ACTION_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 904,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.STORY_TEXT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1047,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.SYNC_METADATA_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1293,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.COMMENT_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1375,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.REPLY_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1467,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "INSERT INTO DatabaseConstants.NOTIFY_DISMISS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1474,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_FEED_ID IN (?, ?, ...)",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE JOIN DatabaseConstants.STORIES_ON_SOCIALFEED_MAP WHERE DatabaseConstants.SOCIALFEED_USER_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE 1",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE JOIN DatabaseConstants.STORIES_ON_SOCIALFEED_MAP WHERE 1",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_LAST_READ_DATE > 0",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.vSTORY_STARRED = 1",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_INFREQUENT = 1",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_STARRED = 1 AND DatabaseConstants.STORY_USER_TAGS LIKE ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE INNER JOIN DatabaseConstants.STORY_TABLE ON DatabaseConstants.STORY_TABLE.DatabaseConstants.STORY_ID = DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE.DatabaseConstants.SOCIALFEED_STORY_STORYID",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 891,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.STORY_SHARED_USER_IDS FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 983,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.SOCIALFEED_TABLE WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1055,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.STARREDCOUNTS_TABLE WHERE DatabaseConstants.STARREDCOUNTS_TAG = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1066,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.SYNC_METADATA_TABLE WHERE DatabaseConstants.SYNC_METADATA_KEY = DatabaseConstants.SYNC_METADATA_KEY_SESSION_FEED_SET",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1299,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.CLASSIFIER_TABLE WHERE DatabaseConstants.CLASSIFIER_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1322,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1332,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1344,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1397,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.USER_TABLE WHERE DatabaseConstants.USER_USERID = ? AND  DatabaseConstants.COMMENT_USERID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1427,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.REPLY_TABLE WHERE DatabaseConstants.REPLY_COMMENTID = ? ORDER BY DatabaseConstants.REPLY_DATE ASC",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1436,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1447,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT * FROM DatabaseConstants.NOTIFY_DISMISS_TABLE WHERE DatabaseConstants.NOTIFY_DISMISS_STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1480,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.FEED_TAGS_TAG FROM DatabaseConstants.FEED_TAGS_TABLE WHERE DatabaseConstants.FEED_TAGS_FEEDID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1513,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM DatabaseConstants.FEED_AUTHORS_TABLE",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1545,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_LAST_READ_DATE = DATE('now') WHERE DatabaseConstants.STORY_LAST_READ_DATE < 1 AND DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 583,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = true WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 593,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 609,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 625,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 637,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 663,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 711,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 771,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET ? = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 833,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.SOCIALFEED_TABLE SET ? = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 837,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_NEGATIVE_COUNT = ?, DatabaseConstants.FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 870,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.SOCIALFEED_TABLE SET DatabaseConstants.SOCIAL_FEED_NEGATIVE_COUNT = ?, DatabaseConstants.SOCIAL_FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.SOCIAL_FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 879,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_INFREQUENT = false",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 900,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_USER_TAGS = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 956,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 966,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_SHARED_USER_IDS = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1007,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.REPLY_TABLE SET DatabaseConstants.REPLY_TEXT = ? WHERE DatabaseConstants.REPLY_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1382,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.COMMENT_TABLE SET DatabaseConstants.COMMENT_LIKING_USERS = ? WHERE DatabaseConstants.COMMENT_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1421,
+            "FoundByMethod": "Manual"
+        },
+        {
+            "Value": "UPDATE DatabaseConstants.FEED_TABLE SETDatabaseConstants.FEED_TITLE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "ExecLine": 1564,
+            "FoundByMethod": "Manual"
+        }
+    ]
+}
