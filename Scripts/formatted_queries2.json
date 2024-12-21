@@ -202,7 +202,39 @@
             "foundBy": "Coco",
             "methodLine": 249,
             "callLine": 0
-        },     
+        },   
+        {
+            "Value": "INSERT INTO FOLDER VALUES folderValues ;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": 0
+        },
+        {
+            "Value": "INSERT INTO FEED VALUES feedValues ;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": 0
+        }, {
+            "Value": "INSERT INTO SOCIAL_FEED VALUES socialFeedValues;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": 0
+        }, {
+            "Value": "INSERT INTO STARRED_COUNTS VALUES starredCountValues;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": 0
+        }, {
+            "Value": "INSERT INTO SAVED_SEARCH VALUES savedSearchValues;",
+            "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+            "foundBy": "Coco",
+            "methodLine": 226,
+            "callLine": 0
+        },
         {
             "Value": "SELECT STORY_HASH FROM STORY_TABLE WHERE STORY_READ = 0;",
             "ExecFile": "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
