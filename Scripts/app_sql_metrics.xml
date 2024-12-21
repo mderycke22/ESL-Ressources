@@ -1,527 +1,179 @@
 <?xml version="1.0" ?>
 <Metrics>
   <Database>
-    <Statement Id="111" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="91">
+    <Statement Id="104" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
+    </Statement>
+    <Statement Id="173" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
+    </Statement>
+    <Statement Id="198" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
+    </Statement>
+    <Statement Id="214" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
+    </Statement>
+    <Statement Id="230" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
+    </Statement>
+    <Statement Id="324" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
+    </Statement>
+    <Statement Id="330" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
+    </Statement>
+    <Statement Id="339" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
+    </Statement>
+    <Statement Id="376" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
+    </Statement>
+    <Statement Id="401" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
+    </Statement>
+    <Statement Id="416" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
+    </Statement>
+    <Statement Id="429" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
+    </Statement>
+    <Statement Id="442" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
+    </Statement>
+    <Statement Id="459" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
+    </Statement>
+    <Statement Id="476" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
+    </Statement>
+    <Statement Id="486" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
+    </Statement>
+    <Statement Id="495" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
+    </Statement>
+    <Statement Id="504" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
+    </Statement>
+    <Statement Id="514" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
+    </Statement>
+    <Statement Id="516" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
+    </Statement>
+    <Statement Id="518" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
+    </Statement>
+    <Statement Id="520" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
+    </Statement>
+    <Statement Id="522" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
+    </Statement>
+    <Statement Id="524" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
+    </Statement>
+    <Statement Id="526" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
+    </Statement>
+    <Statement Id="528" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
+    </Statement>
+    <Statement Id="530" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
+    </Statement>
+    <Statement Id="532" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
+    </Statement>
+    <Statement Id="534" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
+    </Statement>
+    <Statement Id="536" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
+    </Statement>
+    <Statement Id="538" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
+    </Statement>
+    <Statement Id="540" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
+    </Statement>
+    <Statement Id="542" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
+    </Statement>
+    <Statement Id="544" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
+    </Statement>
+    <Statement Id="546" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
+    </Statement>
+    <Statement Id="548" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
+    </Statement>
+    <Statement Id="557" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="91">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="116" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
+    <Statement Id="562" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="124" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
+    <Statement Id="570" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="129" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="128">
+    <Statement Id="575" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="128">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="131" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="177">
+    <Statement Id="577" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="177">
       <Metrics>
         <Metric name="Nested Queries" value="1"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="140" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="201">
+    <Statement Id="586" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="201">
     </Statement>
-    <Statement Id="155" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="283">
+    <Statement Id="601" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="283">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="163" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="296">
+    <Statement Id="609" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="296">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="168" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="540">
+    <Statement Id="614" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="540">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="174" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
+    <Statement Id="620" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
     </Statement>
-    <Statement Id="183" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
+    <Statement Id="629" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
     </Statement>
-    <Statement Id="191" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="909">
+    <Statement Id="637" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="909">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="199" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="917">
+    <Statement Id="645" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="917">
     </Statement>
-    <Statement Id="210" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
+    <Statement Id="656" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="216" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="973">
+    <Statement Id="662" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="973">
     </Statement>
-    <Statement Id="227" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1014">
+    <Statement Id="673" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1014">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="235" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1030">
+    <Statement Id="681" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1030">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="247" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1113">
+    <Statement Id="693" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1113">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="249" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1198">
-    </Statement>
-    <Statement Id="253" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
-    </Statement>
-    <Statement Id="322" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
-    </Statement>
-    <Statement Id="347" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
-    </Statement>
-    <Statement Id="363" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
-    </Statement>
-    <Statement Id="379" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
-    </Statement>
-    <Statement Id="473" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
-    </Statement>
-    <Statement Id="479" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
-    </Statement>
-    <Statement Id="488" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
-    </Statement>
-    <Statement Id="525" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
-    </Statement>
-    <Statement Id="550" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
-    </Statement>
-    <Statement Id="565" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
-    </Statement>
-    <Statement Id="578" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
-    </Statement>
-    <Statement Id="591" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
-    </Statement>
-    <Statement Id="608" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
-    </Statement>
-    <Statement Id="625" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
-    </Statement>
-    <Statement Id="635" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
-    </Statement>
-    <Statement Id="644" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
-    </Statement>
-    <Statement Id="653" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
-    </Statement>
-    <Statement Id="663" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
-    </Statement>
-    <Statement Id="665" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
-    </Statement>
-    <Statement Id="667" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
-    </Statement>
-    <Statement Id="669" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
-    </Statement>
-    <Statement Id="671" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
-    </Statement>
-    <Statement Id="673" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
-    </Statement>
-    <Statement Id="675" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
-    </Statement>
-    <Statement Id="677" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
-    </Statement>
-    <Statement Id="679" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
-    </Statement>
-    <Statement Id="681" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
-    </Statement>
-    <Statement Id="683" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
-    </Statement>
-    <Statement Id="685" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
-    </Statement>
-    <Statement Id="687" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
-    </Statement>
-    <Statement Id="689" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
-    </Statement>
-    <Statement Id="691" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
-    </Statement>
-    <Statement Id="693" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
-    </Statement>
-    <Statement Id="695" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
-    </Statement>
-    <Statement Id="697" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
-    </Statement>
-    <Statement Id="704" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="91">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="709" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="717" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="722" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="128">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="724" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="177">
-      <Metrics>
-        <Metric name="Nested Queries" value="1"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="733" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="201">
-    </Statement>
-    <Statement Id="748" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="283">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="756" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="296">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="761" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="540">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="767" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
-    </Statement>
-    <Statement Id="776" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
-    </Statement>
-    <Statement Id="784" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="909">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="792" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="917">
-    </Statement>
-    <Statement Id="803" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="809" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="973">
-    </Statement>
-    <Statement Id="820" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1014">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="828" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1030">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="840" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1113">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="842" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1198">
-    </Statement>
-    <Statement Id="846" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
-    </Statement>
-    <Statement Id="891" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
-    </Statement>
-    <Statement Id="908" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
-    </Statement>
-    <Statement Id="919" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
-    </Statement>
-    <Statement Id="930" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
-    </Statement>
-    <Statement Id="993" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
-    </Statement>
-    <Statement Id="997" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
-    </Statement>
-    <Statement Id="1003" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
-    </Statement>
-    <Statement Id="1028" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
-    </Statement>
-    <Statement Id="1045" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
-    </Statement>
-    <Statement Id="1055" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
-    </Statement>
-    <Statement Id="1065" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
-    </Statement>
-    <Statement Id="1074" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
-    </Statement>
-    <Statement Id="1085" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
-    </Statement>
-    <Statement Id="1097" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
-    </Statement>
-    <Statement Id="1104" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
-    </Statement>
-    <Statement Id="1110" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
-    </Statement>
-    <Statement Id="1116" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
-    </Statement>
-    <Statement Id="1123" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
-    </Statement>
-    <Statement Id="1125" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
-    </Statement>
-    <Statement Id="1127" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
-    </Statement>
-    <Statement Id="1129" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
-    </Statement>
-    <Statement Id="1131" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
-    </Statement>
-    <Statement Id="1133" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
-    </Statement>
-    <Statement Id="1135" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
-    </Statement>
-    <Statement Id="1137" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
-    </Statement>
-    <Statement Id="1139" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
-    </Statement>
-    <Statement Id="1141" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
-    </Statement>
-    <Statement Id="1143" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
-    </Statement>
-    <Statement Id="1145" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
-    </Statement>
-    <Statement Id="1147" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
-    </Statement>
-    <Statement Id="1149" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
-    </Statement>
-    <Statement Id="1151" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
-    </Statement>
-    <Statement Id="1153" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
-    </Statement>
-    <Statement Id="1155" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
-    </Statement>
-    <Statement Id="1157" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
-    </Statement>
-    <Statement Id="1164" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="91">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1172" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1177" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1182" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="128">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1184" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="177">
-      <Metrics>
-        <Metric name="Nested Queries" value="1"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1193" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="201">
-    </Statement>
-    <Statement Id="1208" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="283">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1216" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="296">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1221" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="540">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1227" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
-    </Statement>
-    <Statement Id="1236" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
-    </Statement>
-    <Statement Id="1244" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="909">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1252" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="917">
-    </Statement>
-    <Statement Id="1263" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1269" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="973">
-    </Statement>
-    <Statement Id="1280" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1014">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1288" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1030">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1300" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1113">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1302" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1198">
-    </Statement>
-    <Statement Id="1306" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
-    </Statement>
-    <Statement Id="1351" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
-    </Statement>
-    <Statement Id="1368" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
-    </Statement>
-    <Statement Id="1379" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
-    </Statement>
-    <Statement Id="1390" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
-    </Statement>
-    <Statement Id="1453" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
-    </Statement>
-    <Statement Id="1457" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
-    </Statement>
-    <Statement Id="1463" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
-    </Statement>
-    <Statement Id="1488" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
-    </Statement>
-    <Statement Id="1505" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
-    </Statement>
-    <Statement Id="1515" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
-    </Statement>
-    <Statement Id="1525" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
-    </Statement>
-    <Statement Id="1534" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
-    </Statement>
-    <Statement Id="1545" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
-    </Statement>
-    <Statement Id="1557" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
-    </Statement>
-    <Statement Id="1564" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
-    </Statement>
-    <Statement Id="1570" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
-    </Statement>
-    <Statement Id="1576" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
-    </Statement>
-    <Statement Id="1583" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
-    </Statement>
-    <Statement Id="1585" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
-    </Statement>
-    <Statement Id="1587" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
-    </Statement>
-    <Statement Id="1589" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
-    </Statement>
-    <Statement Id="1591" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
-    </Statement>
-    <Statement Id="1593" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
-    </Statement>
-    <Statement Id="1595" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
-    </Statement>
-    <Statement Id="1597" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
-    </Statement>
-    <Statement Id="1599" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
-    </Statement>
-    <Statement Id="1601" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
-    </Statement>
-    <Statement Id="1603" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
-    </Statement>
-    <Statement Id="1605" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
-    </Statement>
-    <Statement Id="1607" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
-    </Statement>
-    <Statement Id="1609" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
-    </Statement>
-    <Statement Id="1611" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
-    </Statement>
-    <Statement Id="1613" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
-    </Statement>
-    <Statement Id="1615" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
-    </Statement>
-    <Statement Id="1617" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
+    <Statement Id="695" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1198">
     </Statement>
 </Database>  
 </Metrics>

@@ -1,471 +1,21 @@
 {
   "Queries" : [ {
     "id" : "1",
-    "Value" : "SELECT sqlite_version() AS sqlite_version",
+    "Value" : "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, opens INTEGER, average_stories_per_month INTEGER, last_story_date TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT, fetch_pending TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "91",
-    "ExecString" : "dbRO.rawQuery(\"SELECT sqlite_version() AS sqlite_version\",null)",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "18",
+    "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
     "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getEngineVersion()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 88,
-      "callLine" : 91
+      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 18
     } ]
   }, {
     "id" : "2",
-    "Value" : "SELECT _id FROM feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "112",
-    "ExecString" : "dbRO.rawQuery(q1,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 106,
-      "callLine" : 112
-    } ]
-  }, {
-    "id" : "3",
-    "Value" : "SELECT _id FROM feeds WHERE active = 1",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "112",
-    "ExecString" : "dbRO.rawQuery(q1,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 106,
-      "callLine" : 112
-    } ]
-  }, {
-    "id" : "4",
-    "Value" : "SELECT _id FROM social_feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "128",
-    "ExecString" : "dbRO.rawQuery(q1,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 125,
-      "callLine" : 128
-    } ]
-  }, {
-    "id" : "5",
-    "Value" : "DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "177",
-    "ExecString" : "dbRW.execSQL(q)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 172,
-      "callLine" : 177
-    } ]
-  }, {
-    "id" : "6",
-    "Value" : "VACUUM",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "181",
-    "ExecString" : "dbRW.execSQL(\"VACUUM\")",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.vacuum()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 180,
-      "callLine" : 181
-    } ]
-  }, {
-    "id" : "7",
-    "Value" : "DELETE FROM saved_search WHERE saved_search_feed_id = '{{na}}' AND saved_search_query = '{{na}}'",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "201",
-    "ExecString" : "dbRW.execSQL(q)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.deleteSavedSearch(java.lang.String,java.lang.String)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 197,
-      "callLine" : 201
-    } ]
-  }, {
-    "id" : "8",
-    "Value" : "SELECT story_hash FROM stories WHERE read = 0",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "283",
-    "ExecString" : "dbRO.rawQuery(q,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 279,
-      "callLine" : 283
-    } ]
-  }, {
-    "id" : "9",
-    "Value" : "SELECT story_hash FROM stories WHERE starred = 1",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "296",
-    "ExecString" : "dbRO.rawQuery(q,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStarredStoryHashes()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 292,
-      "callLine" : 296
-    } ]
-  }, {
-    "id" : "10",
-    "Value" : "SELECT _id FROM feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "540",
-    "ExecString" : "dbRO.rawQuery(q1,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(main.java.com.newsblur.database.Story[])",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 531,
-      "callLine" : 540
-    } ]
-  }, {
-    "id" : "11",
-    "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "730",
-    "ExecString" : "dbRW.execSQL(q.toString())",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 666,
-      "callLine" : 730
-    } ]
-  }, {
-    "id" : "12",
-    "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "730",
-    "ExecString" : "dbRW.execSQL(q.toString())",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 666,
-      "callLine" : 730
-    } ]
-  }, {
-    "id" : "13",
-    "Value" : "{{na}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "735",
-    "ExecString" : "dbRW.execSQL(q.toString())",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 666,
-      "callLine" : 735
-    } ]
-  }, {
-    "id" : "14",
-    "Value" : "",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "891",
-    "ExecString" : "dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[0]))",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 883,
-      "callLine" : 891
-    } ]
-  }, {
-    "id" : "15",
-    "Value" : "SELECT * FROM story_actions",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "909",
-    "ExecString" : "dbRO.rawQuery(q,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActions()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 907,
-      "callLine" : 909
-    } ]
-  }, {
-    "id" : "16",
-    "Value" : "UPDATE story_actions SET tried = tried + 1 WHERE _id = {{question}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "917",
-    "ExecString" : "dbRW.execSQL(q,new String[]{actionId})",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.incrementActionTried(java.lang.String)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 912,
-      "callLine" : 917
-    } ]
-  }, {
-    "id" : "17",
-    "Value" : "SELECT * FROM story_actions WHERE tried < 1",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "923",
-    "ExecString" : "dbRO.rawQuery(q,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getUntriedActionCount()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 921,
-      "callLine" : 923
-    } ]
-  }, {
-    "id" : "18",
-    "Value" : "UPDATE starred_counts SET count = count{{na}} WHERE tag = '{{na}}'",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "973",
-    "ExecString" : "dbRW.execSQL(q.toString())",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,java.util.List,boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 933,
-      "callLine" : 973
-    } ]
-  }, {
-    "id" : "19",
-    "Value" : "SELECT story_text FROM storytext WHERE story_hash = {{question}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1014",
-    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1010,
-      "callLine" : 1014
-    } ]
-  }, {
-    "id" : "20",
-    "Value" : "SELECT content FROM stories WHERE story_hash = {{question}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1030",
-    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1026,
-      "callLine" : 1030
-    } ]
-  }, {
-    "id" : "21",
-    "Value" : "SELECT _id FROM feeds WHERE notification_filter = '{{na}}' OR notification_filter = '{{na}}'",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1113",
-    "ExecString" : "dbRO.rawQuery(q,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFeeds()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1109,
-      "callLine" : 1113
-    } ]
-  }, {
-    "id" : "22",
-    "Value" : "INSERT INTO reading_session (session_story_hash) ",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1198",
-    "ExecString" : "dbRW.execSQL(q.toString(),selArgs.toArray(new String[0]))",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter,main.java.com.newsblur.database.ReadFilter)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1180,
-      "callLine" : 1198
-    } ]
-  }, {
-    "id" : "23",
-    "Value" : "{{na}} ORDER BY last_read_date DESC",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1157,
-      "callLine" : 1172
-    } ]
-  }, {
-    "id" : "24",
-    "Value" : "{{na}}feed_id = {{na}} ORDER BY timestamp DESC LIMIT 20",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1125,
-      "callLine" : 1140
-    } ]
-  }, {
-    "id" : "25",
-    "Value" : "{{na}} ORDER BY sharedDate DESC",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1157,
-      "callLine" : 1172
-    } ]
-  }, {
-    "id" : "26",
-    "Value" : "{{na}} ORDER BY {{na}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1157,
-      "callLine" : 1172
-    } ]
-  }, {
-    "id" : "27",
-    "Value" : "{{na}}active = 1 ORDER BY timestamp DESC LIMIT 20",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1125,
-      "callLine" : 1140
-    } ]
-  }, {
-    "id" : "28",
-    "Value" : "{{na}}",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "1596",
-    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1588,
-      "callLine" : 1596
-    }, {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFocusStoriesCursor()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 1101,
-      "callLine" : 1102
-    } ]
-  }, {
-    "id" : "29",
-    "Value" : "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, opens INTEGER, average_stories_per_month INTEGER, last_story_date TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT, fetch_pending TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "18",
-    "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 18
-    } ]
-  }, {
-    "id" : "30",
     "Value" : "CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -480,7 +30,7 @@
       "callLine" : 19
     } ]
   }, {
-    "id" : "31",
+    "id" : "3",
     "Value" : "CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -495,7 +45,7 @@
       "callLine" : 20
     } ]
   }, {
-    "id" : "32",
+    "id" : "4",
     "Value" : "CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -510,7 +60,7 @@
       "callLine" : 21
     } ]
   }, {
-    "id" : "33",
+    "id" : "5",
     "Value" : "CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, infrequent INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT, thumbnail_url TEXT, has_modifications INTEGER)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -525,7 +75,7 @@
       "callLine" : 22
     } ]
   }, {
-    "id" : "34",
+    "id" : "6",
     "Value" : "CREATE TABLE reading_session (session_story_hash TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -540,7 +90,7 @@
       "callLine" : 23
     } ]
   }, {
-    "id" : "35",
+    "id" : "7",
     "Value" : "CREATE TABLE storytext (story_hash TEXT, story_text TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -555,7 +105,7 @@
       "callLine" : 24
     } ]
   }, {
-    "id" : "36",
+    "id" : "8",
     "Value" : "CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT, comment_isplaceholder TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -570,7 +120,7 @@
       "callLine" : 25
     } ]
   }, {
-    "id" : "37",
+    "id" : "9",
     "Value" : "CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT, reply_isplaceholder TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -585,7 +135,7 @@
       "callLine" : 26
     } ]
   }, {
-    "id" : "38",
+    "id" : "10",
     "Value" : "CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -600,7 +150,7 @@
       "callLine" : 27
     } ]
   }, {
-    "id" : "39",
+    "id" : "11",
     "Value" : "CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -615,7 +165,7 @@
       "callLine" : 28
     } ]
   }, {
-    "id" : "40",
+    "id" : "12",
     "Value" : "CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -630,7 +180,7 @@
       "callLine" : 29
     } ]
   }, {
-    "id" : "41",
+    "id" : "13",
     "Value" : "CREATE TABLE saved_search (saved_search_title TEXT, saved_search_favicon TEXT, saved_search_address TEXT, saved_search_query TEXT, saved_search_feed_id)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -645,7 +195,7 @@
       "callLine" : 30
     } ]
   }, {
-    "id" : "42",
+    "id" : "14",
     "Value" : "CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, tried INTEGER, action_params TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -660,7 +210,7 @@
       "callLine" : 31
     } ]
   }, {
-    "id" : "43",
+    "id" : "15",
     "Value" : "CREATE TABLE notify_dimiss (story_hash TEXT, time INTEGER NOT NULL )",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -675,7 +225,7 @@
       "callLine" : 32
     } ]
   }, {
-    "id" : "44",
+    "id" : "16",
     "Value" : "CREATE TABLE feed_tags (feed_id TEXT, tag TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -690,7 +240,7 @@
       "callLine" : 33
     } ]
   }, {
-    "id" : "45",
+    "id" : "17",
     "Value" : "CREATE TABLE feed_authors (feed_id TEXT, author TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -705,7 +255,7 @@
       "callLine" : 34
     } ]
   }, {
-    "id" : "46",
+    "id" : "18",
     "Value" : "CREATE TABLE sync_metadata (key TEXT PRIMARY KEY, value TEXT)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -720,7 +270,7 @@
       "callLine" : 35
     } ]
   }, {
-    "id" : "47",
+    "id" : "19",
     "Value" : "DROP TABLE IF EXISTS feeds",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -735,7 +285,7 @@
       "callLine" : 41
     } ]
   }, {
-    "id" : "48",
+    "id" : "20",
     "Value" : "DROP TABLE IF EXISTS social_feeds",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -750,7 +300,7 @@
       "callLine" : 42
     } ]
   }, {
-    "id" : "49",
+    "id" : "21",
     "Value" : "DROP TABLE IF EXISTS folders",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -765,7 +315,7 @@
       "callLine" : 43
     } ]
   }, {
-    "id" : "50",
+    "id" : "22",
     "Value" : "DROP TABLE IF EXISTS stories",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -780,7 +330,7 @@
       "callLine" : 44
     } ]
   }, {
-    "id" : "51",
+    "id" : "23",
     "Value" : "DROP TABLE IF EXISTS reading_session",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -795,7 +345,7 @@
       "callLine" : 45
     } ]
   }, {
-    "id" : "52",
+    "id" : "24",
     "Value" : "DROP TABLE IF EXISTS storytext",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -810,7 +360,7 @@
       "callLine" : 46
     } ]
   }, {
-    "id" : "53",
+    "id" : "25",
     "Value" : "DROP TABLE IF EXISTS user_table",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -825,7 +375,7 @@
       "callLine" : 47
     } ]
   }, {
-    "id" : "54",
+    "id" : "26",
     "Value" : "DROP TABLE IF EXISTS comments",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -840,7 +390,7 @@
       "callLine" : 48
     } ]
   }, {
-    "id" : "55",
+    "id" : "27",
     "Value" : "DROP TABLE IF EXISTS comment_replies",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -855,7 +405,7 @@
       "callLine" : 49
     } ]
   }, {
-    "id" : "56",
+    "id" : "28",
     "Value" : "DROP TABLE IF EXISTS classifiers",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -870,7 +420,7 @@
       "callLine" : 50
     } ]
   }, {
-    "id" : "57",
+    "id" : "29",
     "Value" : "DROP TABLE IF EXISTS socialfeed_story_map",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -885,7 +435,7 @@
       "callLine" : 51
     } ]
   }, {
-    "id" : "58",
+    "id" : "30",
     "Value" : "DROP TABLE IF EXISTS starred_counts",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -900,7 +450,7 @@
       "callLine" : 52
     } ]
   }, {
-    "id" : "59",
+    "id" : "31",
     "Value" : "DROP TABLE IF EXISTS saved_search",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -915,7 +465,7 @@
       "callLine" : 53
     } ]
   }, {
-    "id" : "60",
+    "id" : "32",
     "Value" : "DROP TABLE IF EXISTS story_actions",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -930,7 +480,7 @@
       "callLine" : 54
     } ]
   }, {
-    "id" : "61",
+    "id" : "33",
     "Value" : "DROP TABLE IF EXISTS notify_dimiss",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -945,7 +495,7 @@
       "callLine" : 55
     } ]
   }, {
-    "id" : "62",
+    "id" : "34",
     "Value" : "DROP TABLE IF EXISTS feed_tags",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -960,7 +510,7 @@
       "callLine" : 56
     } ]
   }, {
-    "id" : "63",
+    "id" : "35",
     "Value" : "DROP TABLE IF EXISTS feed_authors",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -975,7 +525,7 @@
       "callLine" : 57
     } ]
   }, {
-    "id" : "64",
+    "id" : "36",
     "Value" : "DROP TABLE IF EXISTS sync_metadata",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -990,7 +540,7 @@
       "callLine" : 58
     } ]
   }, {
-    "id" : "65",
+    "id" : "37",
     "Value" : "SELECT sqlite_version() AS sqlite_version",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1005,7 +555,22 @@
       "callLine" : 91
     } ]
   }, {
-    "id" : "66",
+    "id" : "38",
+    "Value" : "SELECT _id FROM feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "112",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 106,
+      "callLine" : 112
+    } ]
+  }, {
+    "id" : "39",
     "Value" : "SELECT _id FROM feeds WHERE active = 1",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1020,22 +585,7 @@
       "callLine" : 112
     } ]
   }, {
-    "id" : "67",
-    "Value" : "SELECT _id FROM feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-    "ExecLine" : "112",
-    "ExecString" : "dbRO.rawQuery(q1,null)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "methodLine" : 106,
-      "callLine" : 112
-    } ]
-  }, {
-    "id" : "68",
+    "id" : "40",
     "Value" : "SELECT _id FROM social_feeds",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1050,7 +600,7 @@
       "callLine" : 128
     } ]
   }, {
-    "id" : "69",
+    "id" : "41",
     "Value" : "DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1065,7 +615,7 @@
       "callLine" : 177
     } ]
   }, {
-    "id" : "70",
+    "id" : "42",
     "Value" : "VACUUM",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1080,7 +630,7 @@
       "callLine" : 181
     } ]
   }, {
-    "id" : "71",
+    "id" : "43",
     "Value" : "DELETE FROM saved_search WHERE saved_search_feed_id = '{{na}}' AND saved_search_query = '{{na}}'",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1095,7 +645,7 @@
       "callLine" : 201
     } ]
   }, {
-    "id" : "72",
+    "id" : "44",
     "Value" : "SELECT story_hash FROM stories WHERE read = 0",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1110,7 +660,7 @@
       "callLine" : 283
     } ]
   }, {
-    "id" : "73",
+    "id" : "45",
     "Value" : "SELECT story_hash FROM stories WHERE starred = 1",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1125,7 +675,7 @@
       "callLine" : 296
     } ]
   }, {
-    "id" : "74",
+    "id" : "46",
     "Value" : "SELECT _id FROM feeds",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1140,7 +690,7 @@
       "callLine" : 540
     } ]
   }, {
-    "id" : "75",
+    "id" : "47",
     "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1155,7 +705,7 @@
       "callLine" : 730
     } ]
   }, {
-    "id" : "76",
+    "id" : "48",
     "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1170,7 +720,7 @@
       "callLine" : 730
     } ]
   }, {
-    "id" : "77",
+    "id" : "49",
     "Value" : "{{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1185,7 +735,7 @@
       "callLine" : 735
     } ]
   }, {
-    "id" : "78",
+    "id" : "50",
     "Value" : "",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1200,7 +750,7 @@
       "callLine" : 891
     } ]
   }, {
-    "id" : "79",
+    "id" : "51",
     "Value" : "SELECT * FROM story_actions",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1215,7 +765,7 @@
       "callLine" : 909
     } ]
   }, {
-    "id" : "80",
+    "id" : "52",
     "Value" : "UPDATE story_actions SET tried = tried + 1 WHERE _id = {{question}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1230,7 +780,7 @@
       "callLine" : 917
     } ]
   }, {
-    "id" : "81",
+    "id" : "53",
     "Value" : "SELECT * FROM story_actions WHERE tried < 1",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1245,7 +795,7 @@
       "callLine" : 923
     } ]
   }, {
-    "id" : "82",
+    "id" : "54",
     "Value" : "UPDATE starred_counts SET count = count{{na}} WHERE tag = '{{na}}'",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1260,7 +810,7 @@
       "callLine" : 973
     } ]
   }, {
-    "id" : "83",
+    "id" : "55",
     "Value" : "SELECT story_text FROM storytext WHERE story_hash = {{question}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1275,7 +825,7 @@
       "callLine" : 1014
     } ]
   }, {
-    "id" : "84",
+    "id" : "56",
     "Value" : "SELECT content FROM stories WHERE story_hash = {{question}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1290,7 +840,7 @@
       "callLine" : 1030
     } ]
   }, {
-    "id" : "85",
+    "id" : "57",
     "Value" : "SELECT _id FROM feeds WHERE notification_filter = '{{na}}' OR notification_filter = '{{na}}'",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1305,7 +855,7 @@
       "callLine" : 1113
     } ]
   }, {
-    "id" : "86",
+    "id" : "58",
     "Value" : "INSERT INTO reading_session (session_story_hash) ",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1320,7 +870,7 @@
       "callLine" : 1198
     } ]
   }, {
-    "id" : "87",
+    "id" : "59",
     "Value" : "{{na}} ORDER BY last_read_date DESC",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1340,7 +890,7 @@
       "callLine" : 1172
     } ]
   }, {
-    "id" : "88",
+    "id" : "60",
     "Value" : "{{na}}feed_id = {{na}} ORDER BY timestamp DESC LIMIT 20",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1360,7 +910,7 @@
       "callLine" : 1140
     } ]
   }, {
-    "id" : "89",
+    "id" : "61",
     "Value" : "{{na}} ORDER BY sharedDate DESC",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1380,7 +930,7 @@
       "callLine" : 1172
     } ]
   }, {
-    "id" : "90",
+    "id" : "62",
     "Value" : "{{na}} ORDER BY {{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1400,7 +950,7 @@
       "callLine" : 1172
     } ]
   }, {
-    "id" : "91",
+    "id" : "63",
     "Value" : "{{na}}active = 1 ORDER BY timestamp DESC LIMIT 20",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1420,7 +970,7 @@
       "callLine" : 1140
     } ]
   }, {
-    "id" : "92",
+    "id" : "64",
     "Value" : "{{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
@@ -1438,546 +988,6 @@
       "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1101,
       "callLine" : 1102
-    } ]
-  }, {
-    "id" : "93",
-    "Value" : "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, opens INTEGER, average_stories_per_month INTEGER, last_story_date TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT, fetch_pending TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "18",
-    "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 18
-    } ]
-  }, {
-    "id" : "94",
-    "Value" : "CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "19",
-    "ExecString" : "db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 19
-    } ]
-  }, {
-    "id" : "95",
-    "Value" : "CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "20",
-    "ExecString" : "db.execSQL(DatabaseConstants.FOLDER_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 20
-    } ]
-  }, {
-    "id" : "96",
-    "Value" : "CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "21",
-    "ExecString" : "db.execSQL(DatabaseConstants.USER_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 21
-    } ]
-  }, {
-    "id" : "97",
-    "Value" : "CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, infrequent INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT, thumbnail_url TEXT, has_modifications INTEGER)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "22",
-    "ExecString" : "db.execSQL(DatabaseConstants.STORY_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 22
-    } ]
-  }, {
-    "id" : "98",
-    "Value" : "CREATE TABLE reading_session (session_story_hash TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "23",
-    "ExecString" : "db.execSQL(DatabaseConstants.READING_SESSION_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 23
-    } ]
-  }, {
-    "id" : "99",
-    "Value" : "CREATE TABLE storytext (story_hash TEXT, story_text TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "24",
-    "ExecString" : "db.execSQL(DatabaseConstants.STORY_TEXT_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 24
-    } ]
-  }, {
-    "id" : "100",
-    "Value" : "CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT, comment_isplaceholder TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "25",
-    "ExecString" : "db.execSQL(DatabaseConstants.COMMENT_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 25
-    } ]
-  }, {
-    "id" : "101",
-    "Value" : "CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT, reply_isplaceholder TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "26",
-    "ExecString" : "db.execSQL(DatabaseConstants.REPLY_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 26
-    } ]
-  }, {
-    "id" : "102",
-    "Value" : "CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "27",
-    "ExecString" : "db.execSQL(DatabaseConstants.CLASSIFIER_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 27
-    } ]
-  }, {
-    "id" : "103",
-    "Value" : "CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "28",
-    "ExecString" : "db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 28
-    } ]
-  }, {
-    "id" : "104",
-    "Value" : "CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "29",
-    "ExecString" : "db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 29
-    } ]
-  }, {
-    "id" : "105",
-    "Value" : "CREATE TABLE saved_search (saved_search_title TEXT, saved_search_favicon TEXT, saved_search_address TEXT, saved_search_query TEXT, saved_search_feed_id)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "30",
-    "ExecString" : "db.execSQL(DatabaseConstants.SAVED_SEARCH_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 30
-    } ]
-  }, {
-    "id" : "106",
-    "Value" : "CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, tried INTEGER, action_params TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "31",
-    "ExecString" : "db.execSQL(DatabaseConstants.ACTION_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 31
-    } ]
-  }, {
-    "id" : "107",
-    "Value" : "CREATE TABLE notify_dimiss (story_hash TEXT, time INTEGER NOT NULL )",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "32",
-    "ExecString" : "db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 32
-    } ]
-  }, {
-    "id" : "108",
-    "Value" : "CREATE TABLE feed_tags (feed_id TEXT, tag TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "33",
-    "ExecString" : "db.execSQL(DatabaseConstants.FEED_TAGS_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 33
-    } ]
-  }, {
-    "id" : "109",
-    "Value" : "CREATE TABLE feed_authors (feed_id TEXT, author TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "34",
-    "ExecString" : "db.execSQL(DatabaseConstants.FEED_AUTHORS_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 34
-    } ]
-  }, {
-    "id" : "110",
-    "Value" : "CREATE TABLE sync_metadata (key TEXT PRIMARY KEY, value TEXT)",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "35",
-    "ExecString" : "db.execSQL(DatabaseConstants.SYNC_METADATA_SQL)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 16,
-      "callLine" : 35
-    } ]
-  }, {
-    "id" : "111",
-    "Value" : "DROP TABLE IF EXISTS feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "41",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 41
-    } ]
-  }, {
-    "id" : "112",
-    "Value" : "DROP TABLE IF EXISTS social_feeds",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "42",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 42
-    } ]
-  }, {
-    "id" : "113",
-    "Value" : "DROP TABLE IF EXISTS folders",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "43",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 43
-    } ]
-  }, {
-    "id" : "114",
-    "Value" : "DROP TABLE IF EXISTS stories",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "44",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 44
-    } ]
-  }, {
-    "id" : "115",
-    "Value" : "DROP TABLE IF EXISTS reading_session",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "45",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 45
-    } ]
-  }, {
-    "id" : "116",
-    "Value" : "DROP TABLE IF EXISTS storytext",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "46",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 46
-    } ]
-  }, {
-    "id" : "117",
-    "Value" : "DROP TABLE IF EXISTS user_table",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "47",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.USER_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 47
-    } ]
-  }, {
-    "id" : "118",
-    "Value" : "DROP TABLE IF EXISTS comments",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "48",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 48
-    } ]
-  }, {
-    "id" : "119",
-    "Value" : "DROP TABLE IF EXISTS comment_replies",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "49",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.REPLY_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 49
-    } ]
-  }, {
-    "id" : "120",
-    "Value" : "DROP TABLE IF EXISTS classifiers",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "50",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 50
-    } ]
-  }, {
-    "id" : "121",
-    "Value" : "DROP TABLE IF EXISTS socialfeed_story_map",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "51",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 51
-    } ]
-  }, {
-    "id" : "122",
-    "Value" : "DROP TABLE IF EXISTS starred_counts",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "52",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 52
-    } ]
-  }, {
-    "id" : "123",
-    "Value" : "DROP TABLE IF EXISTS saved_search",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "53",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.SAVED_SEARCH_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 53
-    } ]
-  }, {
-    "id" : "124",
-    "Value" : "DROP TABLE IF EXISTS story_actions",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "54",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.ACTION_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 54
-    } ]
-  }, {
-    "id" : "125",
-    "Value" : "DROP TABLE IF EXISTS notify_dimiss",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "55",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 55
-    } ]
-  }, {
-    "id" : "126",
-    "Value" : "DROP TABLE IF EXISTS feed_tags",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "56",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TAGS_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 56
-    } ]
-  }, {
-    "id" : "127",
-    "Value" : "DROP TABLE IF EXISTS feed_authors",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "57",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_AUTHORS_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 57
-    } ]
-  }, {
-    "id" : "128",
-    "Value" : "DROP TABLE IF EXISTS sync_metadata",
-    "HotspotFinder" : "AndroidHotspotFinder",
-    "ExecPackage" : "",
-    "ExecClass" : "BlurDatabase",
-    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-    "ExecLine" : "58",
-    "ExecString" : "db.execSQL(drop + DatabaseConstants.SYNC_METADATA_TABLE)",
-    "CallStack" : [ {
-      "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "methodLine" : 38,
-      "callLine" : 58
     } ]
   } ]
 }
