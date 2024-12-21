@@ -1,8 +1,8 @@
 Targets
     Occurrences of '.rawQuery(' in Project
-Found occurrences in Project  (15 usages found)
-    Unclassified  (15 usages found)
-        NewsBlur.app  (14 usages found)
+Found occurrences in Project  (13 usages found)
+    Unclassified  (13 usages found)
+        NewsBlur.app  (13 usages found)
             app\src\main\java\com\newsblur\database  (13 usages found)
                 BlurDatabaseHelper.java  (13 usages found)
                     getEngineVersion()  (1 usage found)
