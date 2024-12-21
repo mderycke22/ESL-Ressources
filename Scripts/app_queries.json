@@ -5,12 +5,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "91",
     "ExecString" : "dbRO.rawQuery(\"SELECT sqlite_version() AS sqlite_version\",null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getEngineVersion()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 88,
       "callLine" : 91
     } ]
@@ -20,12 +20,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "112",
     "ExecString" : "dbRO.rawQuery(q1,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 106,
       "callLine" : 112
     } ]
@@ -35,12 +35,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "112",
     "ExecString" : "dbRO.rawQuery(q1,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 106,
       "callLine" : 112
     } ]
@@ -50,12 +50,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "128",
     "ExecString" : "dbRO.rawQuery(q1,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 125,
       "callLine" : 128
     } ]
@@ -65,12 +65,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "177",
     "ExecString" : "dbRW.execSQL(q)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 172,
       "callLine" : 177
     } ]
@@ -80,12 +80,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "181",
     "ExecString" : "dbRW.execSQL(\"VACUUM\")",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.vacuum()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 180,
       "callLine" : 181
     } ]
@@ -95,12 +95,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "201",
     "ExecString" : "dbRW.execSQL(q)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.deleteSavedSearch(java.lang.String,java.lang.String)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 197,
       "callLine" : 201
     } ]
@@ -110,12 +110,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "283",
     "ExecString" : "dbRO.rawQuery(q,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 279,
       "callLine" : 283
     } ]
@@ -125,12 +125,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "296",
     "ExecString" : "dbRO.rawQuery(q,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStarredStoryHashes()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 292,
       "callLine" : 296
     } ]
@@ -140,42 +140,42 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "540",
     "ExecString" : "dbRO.rawQuery(q1,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(main.java.com.newsblur.database.Story[])",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 531,
       "callLine" : 540
     } ]
   }, {
     "id" : "11",
-    "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
+    "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "730",
     "ExecString" : "dbRW.execSQL(q.toString())",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 666,
       "callLine" : 730
     } ]
   }, {
     "id" : "12",
-    "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
+    "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "730",
     "ExecString" : "dbRW.execSQL(q.toString())",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 666,
       "callLine" : 730
     } ]
@@ -185,12 +185,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "735",
     "ExecString" : "dbRW.execSQL(q.toString())",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryReadState(main.java.com.newsblur.database.Story,boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 666,
       "callLine" : 735
     } ]
@@ -200,12 +200,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "891",
     "ExecString" : "dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[0]))",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 883,
       "callLine" : 891
     } ]
@@ -215,12 +215,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "909",
     "ExecString" : "dbRO.rawQuery(q,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActions()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 907,
       "callLine" : 909
     } ]
@@ -230,12 +230,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "917",
     "ExecString" : "dbRW.execSQL(q,new String[]{actionId})",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.incrementActionTried(java.lang.String)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 912,
       "callLine" : 917
     } ]
@@ -245,12 +245,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "923",
     "ExecString" : "dbRO.rawQuery(q,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getUntriedActionCount()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 921,
       "callLine" : 923
     } ]
@@ -260,12 +260,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "973",
     "ExecString" : "dbRW.execSQL(q.toString())",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,java.util.List,boolean)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 933,
       "callLine" : 973
     } ]
@@ -275,12 +275,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1014",
     "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1010,
       "callLine" : 1014
     } ]
@@ -290,12 +290,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1030",
     "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1026,
       "callLine" : 1030
     } ]
@@ -305,12 +305,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1113",
     "ExecString" : "dbRO.rawQuery(q,null)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFeeds()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1109,
       "callLine" : 1113
     } ]
@@ -320,12 +320,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1198",
     "ExecString" : "dbRW.execSQL(q.toString(),selArgs.toArray(new String[0]))",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StateFilter,main.java.com.newsblur.database.ReadFilter)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1180,
       "callLine" : 1198
     } ]
@@ -335,17 +335,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1157,
       "callLine" : 1172
     } ]
@@ -355,17 +355,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1125,
       "callLine" : 1140
     } ]
@@ -375,17 +375,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1157,
       "callLine" : 1172
     } ]
@@ -395,17 +395,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(main.java.com.newsblur.database.FeedSet,main.java.com.newsblur.database.StoryOrder,android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1157,
       "callLine" : 1172
     } ]
@@ -415,17 +415,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getStoriesCursor(main.java.com.newsblur.database.FeedSet,android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1125,
       "callLine" : 1140
     } ]
@@ -435,17 +435,17 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabaseHelper",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
     "ExecLine" : "1596",
     "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1588,
       "callLine" : 1596
     }, {
       "method" : "main.java.com.newsblur.database.BlurDatabaseHelper.getNotifyFocusStoriesCursor()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
       "methodLine" : 1101,
       "callLine" : 1102
     } ]
@@ -455,12 +455,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "18",
     "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 18
     } ]
@@ -470,12 +470,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "19",
     "ExecString" : "db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 19
     } ]
@@ -485,12 +485,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "20",
     "ExecString" : "db.execSQL(DatabaseConstants.FOLDER_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 20
     } ]
@@ -500,12 +500,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "21",
     "ExecString" : "db.execSQL(DatabaseConstants.USER_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 21
     } ]
@@ -515,12 +515,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "22",
     "ExecString" : "db.execSQL(DatabaseConstants.STORY_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 22
     } ]
@@ -530,12 +530,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "23",
     "ExecString" : "db.execSQL(DatabaseConstants.READING_SESSION_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 23
     } ]
@@ -545,12 +545,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "24",
     "ExecString" : "db.execSQL(DatabaseConstants.STORY_TEXT_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 24
     } ]
@@ -560,12 +560,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "25",
     "ExecString" : "db.execSQL(DatabaseConstants.COMMENT_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 25
     } ]
@@ -575,12 +575,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "26",
     "ExecString" : "db.execSQL(DatabaseConstants.REPLY_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 26
     } ]
@@ -590,12 +590,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "27",
     "ExecString" : "db.execSQL(DatabaseConstants.CLASSIFIER_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 27
     } ]
@@ -605,12 +605,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "28",
     "ExecString" : "db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 28
     } ]
@@ -620,12 +620,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "29",
     "ExecString" : "db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 29
     } ]
@@ -635,12 +635,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "30",
     "ExecString" : "db.execSQL(DatabaseConstants.SAVED_SEARCH_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 30
     } ]
@@ -650,12 +650,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "31",
     "ExecString" : "db.execSQL(DatabaseConstants.ACTION_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 31
     } ]
@@ -665,12 +665,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "32",
     "ExecString" : "db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 32
     } ]
@@ -680,12 +680,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "33",
     "ExecString" : "db.execSQL(DatabaseConstants.FEED_TAGS_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 33
     } ]
@@ -695,12 +695,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "34",
     "ExecString" : "db.execSQL(DatabaseConstants.FEED_AUTHORS_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 34
     } ]
@@ -710,12 +710,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "35",
     "ExecString" : "db.execSQL(DatabaseConstants.SYNC_METADATA_SQL)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 16,
       "callLine" : 35
     } ]
@@ -725,12 +725,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "41",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 41
     } ]
@@ -740,12 +740,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "42",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 42
     } ]
@@ -755,12 +755,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "43",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 43
     } ]
@@ -770,12 +770,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "44",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 44
     } ]
@@ -785,12 +785,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "45",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 45
     } ]
@@ -800,12 +800,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "46",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 46
     } ]
@@ -815,12 +815,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "47",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.USER_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 47
     } ]
@@ -830,12 +830,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "48",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 48
     } ]
@@ -845,12 +845,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "49",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.REPLY_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 49
     } ]
@@ -860,12 +860,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "50",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 50
     } ]
@@ -875,12 +875,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "51",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 51
     } ]
@@ -890,12 +890,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "52",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 52
     } ]
@@ -905,12 +905,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "53",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.SAVED_SEARCH_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 53
     } ]
@@ -920,12 +920,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "54",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.ACTION_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 54
     } ]
@@ -935,12 +935,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "55",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 55
     } ]
@@ -950,12 +950,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "56",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TAGS_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 56
     } ]
@@ -965,12 +965,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "57",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_AUTHORS_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 57
     } ]
@@ -980,12 +980,12 @@
     "HotspotFinder" : "AndroidHotspotFinder",
     "ExecPackage" : "",
     "ExecClass" : "BlurDatabase",
-    "ExecFile" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
     "ExecLine" : "58",
     "ExecString" : "db.execSQL(drop + DatabaseConstants.SYNC_METADATA_TABLE)",
     "CallStack" : [ {
       "method" : "main.java.com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
-      "file" : "E:/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "file" : "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
       "methodLine" : 38,
       "callLine" : 58
     } ]
