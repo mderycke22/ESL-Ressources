@@ -1,33 +1,79 @@
 Targets
-    Occurrences of '.rawQuery(' in Project
-Found occurrences in Project  (13 usages found)
-    Unclassified  (13 usages found)
-        NewsBlur.app  (13 usages found)
-            app\src\main\java\com\newsblur\database  (13 usages found)
-                BlurDatabaseHelper.java  (13 usages found)
+    Occurrences of 'dbro.rawquery|(dbro.query)' in Project
+Found occurrences in Project  (36 usages found)
+    Unclassified  (36 usages found)
+        NewsBlur.app  (36 usages found)
+            app\src\main\java\com\newsblur\database  (36 usages found)
+                BlurDatabaseHelper.java  (36 usages found)
                     getEngineVersion()  (1 usage found)
                         91 Cursor c = dbRO.rawQuery("SELECT sqlite_version() AS sqlite_version", null);
                     getAllFeeds(boolean)  (1 usage found)
                         112 Cursor c = dbRO.rawQuery(q1, null);
                     getAllSocialFeeds()  (1 usage found)
                         128 Cursor c = dbRO.rawQuery(q1, null);
+                    getFeed(String)  (1 usage found)
+                        211 Cursor c = dbRO.query(DatabaseConstants.FEED_TABLE, null,  DatabaseConstants.FEED_ID + " = ?", new String[] {feedId}, null, null, null);
                     getUnreadStoryHashesAsSet()  (1 usage found)
                         283 Cursor c = dbRO.rawQuery(q, null);
                     getStarredStoryHashes()  (1 usage found)
                         296 Cursor c = dbRO.rawQuery(q, null);
+                    getAllStoryImages()  (1 usage found)
+                        306 Cursor c = dbRO.query(DatabaseConstants.STORY_TABLE, new String[]{DatabaseConstants.STORY_IMAGE_URLS}, null, null, null, null, null);
+                    getAllStoryThumbnails()  (1 usage found)
+                        316 Cursor c = dbRO.query(DatabaseConstants.STORY_TABLE, new String[]{DatabaseConstants.STORY_THUMBNAIL_URL}, null, null, null, null, null);
+                    updateStory(StoriesResponse, StateFilter, boolean)  (1 usage found)
+                        485 Cursor c = dbRO.query(DatabaseConstants.STORY_TABLE, 
                     fixMissingStoryFeeds(Story[])  (1 usage found)
                         540 Cursor c = dbRO.rawQuery(q1, null);
+                    getFolder(String)  (1 usage found)
+                        570 Cursor c = dbRO.query(DatabaseConstants.FOLDER_TABLE, null, selection, selArgs, null, null, null);
+                    isFeedSetFetchPending(FeedSet)  (1 usage found)
+                        643 Cursor c = dbRO.query(DatabaseConstants.FEED_TABLE, 
+                    getFeedsUnreadCount(StateFilter, String, String[])  (1 usage found)
+                        807 Cursor c = dbRO.query(DatabaseConstants.FEED_TABLE, null, selection, selArgs, null, null, null);
+                    getSocialFeedsUnreadCount(StateFilter, String, String[])  (1 usage found)
+                        821 Cursor c = dbRO.query(DatabaseConstants.SOCIALFEED_TABLE, null, selection, selArgs, null, null, null);
                     getLocalUnreadCount(FeedSet, StateFilter)  (1 usage found)
                         891 Cursor c = dbRO.rawQuery(sel.toString(), selArgs.toArray(new String[0]));
                     getActions()  (1 usage found)
                         909 return dbRO.rawQuery(q, null);
                     getUntriedActionCount()  (1 usage found)
                         923 Cursor c = dbRO.rawQuery(q, null);
+                    setStoryShared(String, String, boolean)  (1 usage found)
+                        983 Cursor c = dbRO.query(DatabaseConstants.STORY_TABLE, 
                     getStoryText(String)  (1 usage found)
                         1014 Cursor c = dbRO.rawQuery(q, new String[]{hash});
                     getStoryContent(String)  (1 usage found)
                         1030 Cursor c = dbRO.rawQuery(q, new String[]{hash});
+                    getSocialFeed(String)  (1 usage found)
+                        1055 Cursor c = dbRO.query(DatabaseConstants.SOCIALFEED_TABLE, null, DatabaseConstants.SOCIAL_FEED_ID + " = ?", new String[] {feedId}, null, null, null);
+                    getStarredFeedByTag(String)  (1 usage found)
+                        1066 Cursor c = dbRO.query(DatabaseConstants.STARREDCOUNTS_TABLE, null, DatabaseConstants.STARREDCOUNTS_TAG + " = ?", new String[] {tag}, null, null, null);
                     getNotifyFeeds()  (1 usage found)
                         1113 Cursor c = dbRO.rawQuery(q, null);
+                    getSessionFeedSet()  (1 usage found)
+                        1299 Cursor c = dbRO.query(DatabaseConstants.SYNC_METADATA_TABLE, null, DatabaseConstants.SYNC_METADATA_KEY + " = ?", new String
+                    getClassifierForFeed(String)  (1 usage found)
+                        1322 Cursor c = dbRO.query(DatabaseConstants.CLASSIFIER_TABLE, null, DatabaseConstants.CLASSIFIER_ID + " = ?", selArgs, null, null, null);
+                    getComments(String)  (1 usage found)
+                        1332 Cursor c = dbRO.query(DatabaseConstants.COMMENT_TABLE, null, selection, selArgs, null, null, null);
+                    getComment(String, String)  (1 usage found)
+                        1344 Cursor c = dbRO.query(DatabaseConstants.COMMENT_TABLE, null, selection, selArgs, null, null, null);
+                    setCommentLiked(String, String, String, boolean)  (1 usage found)
+                        1397 Cursor c = dbRO.query(DatabaseConstants.COMMENT_TABLE, 
+                    getUserProfile(String)  (1 usage found)
+                        1427 Cursor c = dbRO.query(DatabaseConstants.USER_TABLE, null, selection, selArgs, null, null, null);
+                    getCommentReplies(String)  (1 usage found)
+                        1436 Cursor c = dbRO.query(DatabaseConstants.REPLY_TABLE, null, selection, selArgs, null, null, DatabaseConstants.REPLY_DATE + " ASC");
+                    insertReplyPlaceholder(String, String, String, String)  (1 usage found)
+                        1447 Cursor c = dbRO.query(DatabaseConstants.COMMENT_TABLE, 
+                    isStoryDismissed(String)  (1 usage found)
+                        1480 Cursor c = dbRO.query(DatabaseConstants.NOTIFY_DISMISS_TABLE, null, selection, selArgs, null, null, null);
+                    getTagsForFeed(String)  (1 usage found)
+                        1513 Cursor c = dbRO.query(DatabaseConstants.FEED_TAGS_TABLE, 
+                    getAuthorsForFeed(String)  (1 usage found)
+                        1545 Cursor c = dbRO.query(DatabaseConstants.FEED_AUTHORS_TABLE, 
                     rawQuery(String, String[], CancellationSignal)  (1 usage found)
                         1596 return dbRO.rawQuery(sql, selectionArgs, cancellationSignal);
+                    query(boolean, String, String[], String, String[], String, String, ...)  (1 usage found)
+                        1604 return dbRO.query(distinct, table, columns, selection, selectionArgs, groupBy, having, orderBy, limit, cancellationSignal);
