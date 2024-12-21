@@ -1,0 +1,9 @@
+Targets
+    Occurrences of '"VACUUM"' in Project
+Found occurrences in Project  (1 usage found)
+    Usage in string constants  (1 usage found)
+        NewsBlur.app  (1 usage found)
+            app\src\main\java\com\newsblur\database  (1 usage found)
+                BlurDatabaseHelper.java  (1 usage found)
+                    vacuum()  (1 usage found)
+                        181 synchronized (RW_MUTEX) {dbRW.execSQL("VACUUM");}
