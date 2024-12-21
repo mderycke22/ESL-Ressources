@@ -1,0 +1,26 @@
+Targets
+    Occurrences of 'execSQL(DatabaseConstants.' in Project
+Found occurrences in Project  (18 usages found)
+    Unclassified  (18 usages found)
+        NewsBlur.app  (18 usages found)
+            app\src\main\java\com\newsblur\database  (18 usages found)
+                BlurDatabase.java  (18 usages found)
+                    onCreate(SQLiteDatabase)  (18 usages found)
+                        18 db.execSQL(DatabaseConstants.FEED_SQL);
+                        19 db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL);
+                        20 db.execSQL(DatabaseConstants.FOLDER_SQL);
+                        21 db.execSQL(DatabaseConstants.USER_SQL);
+                        22 db.execSQL(DatabaseConstants.STORY_SQL);
+                        23 db.execSQL(DatabaseConstants.READING_SESSION_SQL);
+                        24 db.execSQL(DatabaseConstants.STORY_TEXT_SQL);
+                        25 db.execSQL(DatabaseConstants.COMMENT_SQL);
+                        26 db.execSQL(DatabaseConstants.REPLY_SQL);
+                        27 db.execSQL(DatabaseConstants.CLASSIFIER_SQL);
+                        28 db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL);
+                        29 db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL);
+                        30 db.execSQL(DatabaseConstants.SAVED_SEARCH_SQL);
+                        31 db.execSQL(DatabaseConstants.ACTION_SQL);
+                        32 db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL);
+                        33 db.execSQL(DatabaseConstants.FEED_TAGS_SQL);
+                        34 db.execSQL(DatabaseConstants.FEED_AUTHORS_SQL);
+                        35 db.execSQL(DatabaseConstants.SYNC_METADATA_SQL);

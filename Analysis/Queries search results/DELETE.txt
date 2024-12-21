@@ -1,0 +1,61 @@
+Targets
+    Occurrences of '"DELETE FROM |dbRw.delete' in Project
+Found occurrences in Project  (31 usages found)
+    Unclassified  (29 usages found)
+        NewsBlur.app  (29 usages found)
+            app\src\main\java\com\newsblur\database  (29 usages found)
+                BlurDatabaseHelper.java  (29 usages found)
+                    cleanupVeryOldStories()  (1 usage found)
+                        148 int count = dbRW.delete(DatabaseConstants.STORY_TABLE, 
+                    cleanupReadStories()  (1 usage found)
+                        163 int count = dbRW.delete(DatabaseConstants.STORY_TABLE, 
+                    deleteFeed(String)  (2 usages found)
+                        186 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.FEED_TABLE, DatabaseConstants.FEED_ID + " = ?", selArgs);}
+                        187 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.STORY_TABLE, DatabaseConstants.STORY_FEED_ID + " = ?", selArgs);}
+                    deleteSocialFeed(String)  (3 usages found)
+                        192 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.SOCIALFEED_TABLE, DatabaseConstants.SOCIAL_FEED_ID + " = ?", selArgs);}
+                        193 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.STORY_TABLE, DatabaseConstants.STORY_FEED_ID + " = ?", selArgs);}
+                        194 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE, DatabaseConstants.SOCIALFEED_STORY_USER_ID + " = ?", selArgs);}
+                    deleteStories()  (2 usages found)
+                        206 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.STORY_TABLE, null, null);}
+                        207 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.STORY_TEXT_TABLE, null, null);}
+                    setFeedsFolders(List<ContentValues>, List<ContentValues>, List<ContentValues>, List<ContentValues>, List<ContentValues>)  (8 usages found)
+                        257 dbRW.delete(DatabaseConstants.FEED_TABLE, null, null);
+                        258 dbRW.delete(DatabaseConstants.FOLDER_TABLE, null, null);
+                        259 dbRW.delete(DatabaseConstants.SOCIALFEED_TABLE, null, null);
+                        260 dbRW.delete(DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE, null, null);
+                        261 dbRW.delete(DatabaseConstants.COMMENT_TABLE, null, null);
+                        262 dbRW.delete(DatabaseConstants.REPLY_TABLE, null, null);
+                        263 dbRW.delete(DatabaseConstants.STARREDCOUNTS_TABLE, null, null);
+                        264 dbRW.delete(DatabaseConstants.SAVED_SEARCH_TABLE, null, null);
+                    insertStories(StoriesResponse, StateFilter, boolean)  (1 usage found)
+                        397 dbRW.delete(DatabaseConstants.CLASSIFIER_TABLE, DatabaseConstants.CLASSIFIER_ID + " = ?", new String[] { classifierFeedId });
+                    insertSingleCommentExtSync(Comment)  (2 usages found)
+                        464 int count = dbRW.delete(DatabaseConstants.COMMENT_TABLE, DatabaseConstants.COMMENT_ISPLACEHOLDER + " = ?", new String[]{"true"});
+                        466 dbRW.delete(DatabaseConstants.REPLY_TABLE, DatabaseConstants.REPLY_COMMENTID + " = ?", new String[]{comment.id});
+                    clearAction(String)  (1 usage found)
+                        930 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.ACTION_TABLE, DatabaseConstants.ACTION_ID + " = ?", new String[]{actionId});}
+                    clearStorySession()  (1 usage found)
+                        1177 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.READING_SESSION_TABLE, null, null);}
+                    setSessionFeedSet(FeedSet)  (1 usage found)
+                        1288 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.SYNC_METADATA_TABLE, DatabaseConstants.SYNC_METADATA_KEY + " = ?", new String[] 
+                    clearClassifiersForFeed(String)  (1 usage found)
+                        1313 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.CLASSIFIER_TABLE, DatabaseConstants.CLASSIFIER_ID + " = ?", selArgs);}
+                    deleteReply(String)  (1 usage found)
+                        1386 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.REPLY_TABLE, DatabaseConstants.REPLY_ID + " = ?", new String[]{replyId});}
+                    clearSelfComments(String, String)  (1 usage found)
+                        1390 synchronized (RW_MUTEX) {dbRW.delete(DatabaseConstants.COMMENT_TABLE,
+                    cleanupDismissals()  (1 usage found)
+                        1490 int count = dbRW.delete(DatabaseConstants.NOTIFY_DISMISS_TABLE, 
+                    putFeedTagsExtSync(String, Collection<String>)  (1 usage found)
+                        1498 dbRW.delete(DatabaseConstants.FEED_TAGS_TABLE,
+                    putFeedAuthorsExtSync(String, Collection<String>)  (1 usage found)
+                        1530 dbRW.delete(DatabaseConstants.FEED_AUTHORS_TABLE,
+    Usage in string constants  (2 usages found)
+        NewsBlur.app  (2 usages found)
+            app\src\main\java\com\newsblur\database  (2 usages found)
+                BlurDatabaseHelper.java  (2 usages found)
+                    cleanupStoryText()  (1 usage found)
+                        173 String q = "DELETE FROM " + DatabaseConstants.STORY_TEXT_TABLE +
+                    deleteSavedSearch(String, String)  (1 usage found)
+                        198 String q = "DELETE FROM " + DatabaseConstants.SAVED_SEARCH_TABLE +

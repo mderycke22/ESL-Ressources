@@ -1,0 +1,35 @@
+Targets
+    Occurrences of 'dbRw.insert' in Project
+Found occurrences in Project  (15 usages found)
+    Unclassified  (15 usages found)
+        NewsBlur.app  (15 usages found)
+            app\src\main\java\com\newsblur\database  (15 usages found)
+                BlurDatabaseHelper.java  (15 usages found)
+                    updateFeed(Feed)  (1 usage found)
+                        222 dbRW.insertWithOnConflict(DatabaseConstants.FEED_TABLE, null, feed.getValues(), SQLiteDatabase.CONFLICT_REPLACE);
+                    bulkInsertValues(String, List<ContentValues>)  (1 usage found)
+                        232 dbRW.insertWithOnConflict(table, null, values, SQLiteDatabase.CONFLICT_REPLACE);
+                    bulkInsertValuesExtSync(String, List<ContentValues>)  (1 usage found)
+                        245 dbRW.insertWithOnConflict(table, null, values, SQLiteDatabase.CONFLICT_REPLACE);
+                    insertStories(StoriesResponse, StateFilter, boolean)  (1 usage found)
+                        371 dbRW.insert(DatabaseConstants.READING_SESSION_TABLE, null, sessionHashValues);
+                    insertSingleStoryExtSync(Story)  (2 usages found)
+                        436 dbRW.insertWithOnConflict(DatabaseConstants.STORY_TABLE, null, values, SQLiteDatabase.CONFLICT_REPLACE);
+                        442 dbRW.insertWithOnConflict(DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE, null, socialValues, SQLiteDatabase.CONFLICT_REPLACE);
+                    insertSingleCommentExtSync(Comment)  (2 usages found)
+                        467 dbRW.insertWithOnConflict(DatabaseConstants.COMMENT_TABLE, null, comment.getValues(), SQLiteDatabase.CONFLICT_REPLACE);
+                        470 dbRW.insertWithOnConflict(DatabaseConstants.REPLY_TABLE, null, reply.getValues(), SQLiteDatabase.CONFLICT_REPLACE);
+                    fixMissingStoryFeeds(Story[])  (1 usage found)
+                        558 dbRW.insertWithOnConflict(DatabaseConstants.FEED_TABLE, null, values, SQLiteDatabase.CONFLICT_IGNORE);
+                    enqueueAction(ReadingAction)  (1 usage found)
+                        904 synchronized (RW_MUTEX) {dbRW.insertOrThrow(DatabaseConstants.ACTION_TABLE, null, ra.toContentValues());}
+                    putStoryText(String, String)  (1 usage found)
+                        1047 synchronized (RW_MUTEX) {dbRW.insertOrThrow(DatabaseConstants.STORY_TEXT_TABLE, null, values);}
+                    setSessionFeedSet(FeedSet)  (1 usage found)
+                        1293 synchronized (RW_MUTEX) {dbRW.insertWithOnConflict(DatabaseConstants.SYNC_METADATA_TABLE, null, values, SQLiteDatabase.CONFLICT_REPLACE);}
+                    insertCommentPlaceholder(String, String, String)  (1 usage found)
+                        1375 dbRW.insertWithOnConflict(DatabaseConstants.COMMENT_TABLE, null, comment.getValues(), SQLiteDatabase.CONFLICT_REPLACE);
+                    insertReplyPlaceholder(String, String, String, String)  (1 usage found)
+                        1467 synchronized (RW_MUTEX) {dbRW.insertWithOnConflict(DatabaseConstants.REPLY_TABLE, null, reply.getValues(), SQLiteDatabase.CONFLICT_REPLACE);}
+                    putStoryDismissed(String)  (1 usage found)
+                        1474 synchronized (RW_MUTEX) {dbRW.insertOrThrow(DatabaseConstants.NOTIFY_DISMISS_TABLE, null, values);}
