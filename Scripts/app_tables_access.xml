@@ -1,0 +1,354 @@
+<?xml version="1.0" ?>
+<TableAccesses>
+  <Database>
+    <Statement Id="111" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="91">
+    </Statement>
+    <Statement Id="119" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds.active"></Column>
+        <Column name="DB.SCH.feeds._id"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="124" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="112">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds._id"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="129" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="128">
+      <Tables>
+        <Table name="DB.SCH.social_feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.social_feeds._id"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="131" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="177">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+        <Table name="DB.SCH.storytext"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.storytext.story_hash"></Column>
+        <Column name="DB.SCH.storytext.story_text"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="140" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="201">
+      <Tables>
+        <Table name="DB.SCH.saved_search"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.saved_search.saved_search_favicon"></Column>
+        <Column name="DB.SCH.saved_search.saved_search_address"></Column>
+        <Column name="DB.SCH.saved_search.saved_search_query"></Column>
+        <Column name="DB.SCH.saved_search.saved_search_title"></Column>
+        <Column name="DB.SCH.saved_search.saved_search_feed_id"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="155" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="283">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.read"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="163" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="296">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.starred"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="168" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="540">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds._id"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="174" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds._id"></Column>
+        <Column name="DB.SCH.feeds.ps"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="183" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="730">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds._id"></Column>
+        <Column name="DB.SCH.feeds.nt"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="191" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="909">
+      <Tables>
+        <Table name="DB.SCH.story_actions"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.time"></Column>
+        <Column name="DB.SCH.story_actions.action_params"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="199" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="917">
+      <Tables>
+        <Table name="DB.SCH.story_actions"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="210" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
+      <Tables>
+        <Table name="DB.SCH.story_actions"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.time"></Column>
+        <Column name="DB.SCH.story_actions.action_params"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="216" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="973">
+      <Tables>
+        <Table name="DB.SCH.starred_counts"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.starred_counts.tag"></Column>
+        <Column name="DB.SCH.starred_counts.count"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="227" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1014">
+      <Tables>
+        <Table name="DB.SCH.storytext"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.storytext.story_hash"></Column>
+        <Column name="DB.SCH.storytext.story_text"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="235" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1030">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.content"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="247" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1113">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.feeds._id"></Column>
+        <Column name="DB.SCH.feeds.notification_filter"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="249" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1198">
+      <Tables>
+        <Table name="DB.SCH.reading_session"></Table>
+      </Tables>
+      <Columns>
+        <Column name="DB.SCH.reading_session.session_story_hash"></Column>
+      </Columns>
+    </Statement>
+    <Statement Id="253" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="322" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
+      <Tables>
+        <Table name="DB.SCH.social_feeds"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="347" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
+      <Tables>
+        <Table name="DB.SCH.folders"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="363" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
+      <Tables>
+        <Table name="DB.SCH.user_table"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="379" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="473" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
+      <Tables>
+        <Table name="DB.SCH.reading_session"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="479" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
+      <Tables>
+        <Table name="DB.SCH.storytext"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="488" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
+      <Tables>
+        <Table name="DB.SCH.comments"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="525" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
+      <Tables>
+        <Table name="DB.SCH.comment_replies"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="550" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
+      <Tables>
+        <Table name="DB.SCH.classifiers"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="565" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
+      <Tables>
+        <Table name="DB.SCH.socialfeed_story_map"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="578" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
+      <Tables>
+        <Table name="DB.SCH.starred_counts"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="591" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
+      <Tables>
+        <Table name="DB.SCH.saved_search"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="608" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
+      <Tables>
+        <Table name="DB.SCH.story_actions"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="625" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
+      <Tables>
+        <Table name="DB.SCH.notify_dimiss"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="635" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
+      <Tables>
+        <Table name="DB.SCH.feed_tags"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="644" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
+      <Tables>
+        <Table name="DB.SCH.feed_authors"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="653" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
+      <Tables>
+        <Table name="DB.SCH.sync_metadata"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="663" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
+      <Tables>
+        <Table name="DB.SCH.feeds"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="665" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
+      <Tables>
+        <Table name="DB.SCH.social_feeds"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="667" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
+      <Tables>
+        <Table name="DB.SCH.folders"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="669" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
+      <Tables>
+        <Table name="DB.SCH.stories"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="671" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
+      <Tables>
+        <Table name="DB.SCH.reading_session"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="673" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
+      <Tables>
+        <Table name="DB.SCH.storytext"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="675" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
+      <Tables>
+        <Table name="DB.SCH.user_table"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="677" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
+      <Tables>
+        <Table name="DB.SCH.comments"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="679" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
+      <Tables>
+        <Table name="DB.SCH.comment_replies"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="681" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
+      <Tables>
+        <Table name="DB.SCH.classifiers"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="683" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
+      <Tables>
+        <Table name="DB.SCH.socialfeed_story_map"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="685" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
+      <Tables>
+        <Table name="DB.SCH.starred_counts"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="687" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
+      <Tables>
+        <Table name="DB.SCH.saved_search"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="689" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
+      <Tables>
+        <Table name="DB.SCH.story_actions"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="691" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
+      <Tables>
+        <Table name="DB.SCH.notify_dimiss"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="693" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
+      <Tables>
+        <Table name="DB.SCH.feed_tags"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="695" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
+      <Tables>
+        <Table name="DB.SCH.feed_authors"></Table>
+      </Tables>
+    </Statement>
+    <Statement Id="697" Path="/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
+      <Tables>
+        <Table name="DB.SCH.sync_metadata"></Table>
+      </Tables>
+    </Statement>
+</Database>  
+</TableAccesses>
