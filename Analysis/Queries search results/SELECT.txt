@@ -1,0 +1,44 @@
+Targets
+    Occurrences of '.rawQuery(' in Project
+Found occurrences in Project  (15 usages found)
+    Unclassified  (15 usages found)
+        NewsBlur  (1 usage found)
+            bin\androidTest\java\com\newsblur  (1 usage found)
+                ParsingTest.kt  (1 usage found)
+                    ParsingTest  (1 usage found)
+                        testRowTooBig  (1 usage found)
+                            59 val cursor: Cursor = mDatabase.rawQuery("SELECT * FROM TST", null)
+        NewsBlur.app  (14 usages found)
+            app\src\androidTest\java\com\newsblur  (1 usage found)
+                ParsingTest.kt  (1 usage found)
+                    ParsingTest  (1 usage found)
+                        testRowTooBig  (1 usage found)
+                            59 val cursor: Cursor = mDatabase.rawQuery("SELECT * FROM TST", null)
+            app\src\main\java\com\newsblur\database  (13 usages found)
+                BlurDatabaseHelper.java  (13 usages found)
+                    getEngineVersion()  (1 usage found)
+                        91 Cursor c = dbRO.rawQuery("SELECT sqlite_version() AS sqlite_version", null);
+                    getAllFeeds(boolean)  (1 usage found)
+                        112 Cursor c = dbRO.rawQuery(q1, null);
+                    getAllSocialFeeds()  (1 usage found)
+                        128 Cursor c = dbRO.rawQuery(q1, null);
+                    getUnreadStoryHashesAsSet()  (1 usage found)
+                        283 Cursor c = dbRO.rawQuery(q, null);
+                    getStarredStoryHashes()  (1 usage found)
+                        296 Cursor c = dbRO.rawQuery(q, null);
+                    fixMissingStoryFeeds(Story[])  (1 usage found)
+                        540 Cursor c = dbRO.rawQuery(q1, null);
+                    getLocalUnreadCount(FeedSet, StateFilter)  (1 usage found)
+                        891 Cursor c = dbRO.rawQuery(sel.toString(), selArgs.toArray(new String[0]));
+                    getActions()  (1 usage found)
+                        909 return dbRO.rawQuery(q, null);
+                    getUntriedActionCount()  (1 usage found)
+                        923 Cursor c = dbRO.rawQuery(q, null);
+                    getStoryText(String)  (1 usage found)
+                        1014 Cursor c = dbRO.rawQuery(q, new String[]{hash});
+                    getStoryContent(String)  (1 usage found)
+                        1030 Cursor c = dbRO.rawQuery(q, new String[]{hash});
+                    getNotifyFeeds()  (1 usage found)
+                        1113 Cursor c = dbRO.rawQuery(q, null);
+                    rawQuery(String, String[], CancellationSignal)  (1 usage found)
+                        1596 return dbRO.rawQuery(sql, selectionArgs, cancellationSignal);

@@ -1,0 +1,26 @@
+Targets
+    Occurrences of 'execSQL(drop + ' in Project
+Found occurrences in Project  (18 usages found)
+    Unclassified  (18 usages found)
+        NewsBlur.app  (18 usages found)
+            app\src\main\java\com\newsblur\database  (18 usages found)
+                BlurDatabase.java  (18 usages found)
+                    dropAndRecreateTables()  (18 usages found)
+                        41 db.execSQL(drop + DatabaseConstants.FEED_TABLE);
+                        42 db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE);
+                        43 db.execSQL(drop + DatabaseConstants.FOLDER_TABLE);
+                        44 db.execSQL(drop + DatabaseConstants.STORY_TABLE);
+                        45 db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE);
+                        46 db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE);
+                        47 db.execSQL(drop + DatabaseConstants.USER_TABLE);
+                        48 db.execSQL(drop + DatabaseConstants.COMMENT_TABLE);
+                        49 db.execSQL(drop + DatabaseConstants.REPLY_TABLE);
+                        50 db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE);
+                        51 db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE);
+                        52 db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE);
+                        53 db.execSQL(drop + DatabaseConstants.SAVED_SEARCH_TABLE);
+                        54 db.execSQL(drop + DatabaseConstants.ACTION_TABLE);
+                        55 db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE);
+                        56 db.execSQL(drop + DatabaseConstants.FEED_TAGS_TABLE);
+                        57 db.execSQL(drop + DatabaseConstants.FEED_AUTHORS_TABLE);
+                        58 db.execSQL(drop + DatabaseConstants.SYNC_METADATA_TABLE);
