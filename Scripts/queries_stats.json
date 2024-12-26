@@ -1561,7 +1561,7 @@
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.comments WHERE DatabaseConstants.COMMENT_STORYID = ?",
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.COMMENT_STORYID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1397,
             "FoundByMethod": "Manual"
@@ -1711,7 +1711,7 @@
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE feeds SETDatabaseConstants.FEED_TITLE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SET DatabaseConstants.FEED_TITLE = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1564,
             "FoundByMethod": "Manual"

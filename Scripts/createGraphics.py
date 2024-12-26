@@ -5,10 +5,9 @@ from collections import defaultdict
 import re
 
 def count_query_types(file_path):
-
     with open(file_path, 'r') as file:
         data = json.load(file)
-    
+          
     table_stats = defaultdict(lambda: {'select': 0, 'update': 0, 'delete': 0, 'insert': 0, 'create': 0, 'drop': 0})
     
     # Regular expressions to match different query types and extract table names (without that the algorithm will not work eg. a create queries with a attribute name like updated_seconds will maybe not be recognized as create query)
@@ -21,8 +20,8 @@ def count_query_types(file_path):
         'drop': re.compile(r'drop table (if exists )?(\w+)')
     }
     
-    for query in data["Queries"]:
-        query_value = query["Value"].strip().lower()
+    for query in data.get("Queries", []):
+        query_value = query.get("Value", "").strip().lower()
         
         for query_type, pattern in patterns.items():
             match = pattern.search(query_value)
@@ -36,8 +35,7 @@ def count_query_types(file_path):
 if __name__ == "__main__":
     # Define file paths
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.join(script_dir, 'app_queries.json')
-    print(f"Looking for file at: {file_path}")
+    file_path = os.path.join(script_dir, 'queries_stats.json')
     
     # Get query counts and formatted queries
     table_stats = count_query_types(file_path)
