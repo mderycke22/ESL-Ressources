@@ -1189,583 +1189,529 @@
             ]
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "Value": "DELETE FROM stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 148,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "Value": "DELETE FROM stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 163,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "Value": "DELETE FROM feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 186,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "Value": "DELETE FROM stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 187,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_TABLE",
+            "Value": "DELETE FROM social_feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 192,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "Value": "DELETE FROM stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 193,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "Value": "DELETE FROM socialfeed_story_map",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 194,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TABLE",
+            "Value": "DELETE FROM stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 206,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STORY_TEXT_TABLE",
+            "Value": "DELETE FROM storytext",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 207,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "Value": "DELETE FROM feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 257,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FOLDER_TABLE",
+            "Value": "DELETE FROM folders",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 258,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FEED_TABLE",
+            "Value": "DELETE FROM feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 259,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_TABLE",
+            "Value": "DELETE FROM feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 260,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "Value": "DELETE FROM socialfeed_story_map",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 261,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "Value": "DELETE FROM comments",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 262,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "Value": "DELETE FROM comment_replies",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 263,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.STARREDCOUNTS_TABLE",
+            "Value": "DELETE FROM starred_counts",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 264,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.CLASSIFIER_TABLE",
+            "Value": "DELETE FROM classifiers",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 397,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "Value": "DELETE FROM comments",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 464,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "Value": "DELETE FROM comment_replies",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 466,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.ACTION_TABLE",
+            "Value": "DELETE FROM story_actions",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 930,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.READING_SESSION_TABLE",
+            "Value": "DELETE FROM reading_session",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1177,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.SYNC_METADATA_TABLE",
+            "Value": "DELETE FROM sync_metadata",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1288,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.CLASSIFIER_TABLE",
+            "Value": "DELETE FROM classifiers",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1313,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.REPLY_TABLE",
+            "Value": "DELETE FROM comment_replies",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1386,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.COMMENT_TABLE",
+            "Value": "DELETE FROM comments",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1390,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.NOTIFY_DISMISS_TABLE",
+            "Value": "DELETE FROM notify_dimiss",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1490,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FEED_TAGS_TABLE",
+            "Value": "DELETE FROM feed_tags",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1498,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "DELETE FROM DatabaseConstants.FEED_AUTHORS_TABLE",
+            "Value": "DELETE FROM feed_authors",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1530,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "Value": "INSERT INTO feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 222,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.CLASSIFIER_TABLE",
+            "Value": "INSERT INTO classifiers",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 232,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FOLDER_TABLE",
+            "Value": "INSERT INTO folders",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 265,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "Value": "INSERT INTO feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 266,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.SOCIALFEED_TABLE",
+            "Value": "INSERT INTO social_feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 267,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.STARREDCOUNTS_TABLE",
+            "Value": "INSERT INTO starred_counts",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 268,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.SAVED_SEARCH_TABLE",
+            "Value": "INSERT INTO saved_search",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 269,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.USER_TABLE",
+            "Value": "INSERT INTO user_table",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 346,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "Value": "INSERT INTO feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 355,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.CLASSIFIER_TABLE",
+            "Value": "INSERT INTO classifiers",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 398,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.USER_TABLE",
+            "Value": "INSERT INTO user_table",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 517,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_TAGS_TABLE",
+            "Value": "INSERT INTO feed_tags",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1509,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_AUTHORS_TABLE",
+            "Value": "INSERT INTO feed_authors",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1541,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.READING_SESSION_TABLE",
+            "Value": "INSERT INTO reading_session",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 371,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.STORY_TABLE",
+            "Value": "INSERT INTO stories",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 436,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE",
+            "Value": "INSERT INTO socialfeed_story_map",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 442,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.COMMENT_TABLE",
+            "Value": "INSERT INTO comments",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 467,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.REPLY_TABLE",
+            "Value": "INSERT INTO comment_replies",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 470,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.FEED_TABLE",
+            "Value": "INSERT INTO feeds",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 558,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.ACTION_TABLE",
+            "Value": "INSERT INTO story_actions",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 904,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.STORY_TEXT_TABLE",
+            "Value": "INSERT INTO storytext",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1047,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.SYNC_METADATA_TABLE",
+            "Value": "INSERT INTO sync_metadata",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1293,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.COMMENT_TABLE",
+            "Value": "INSERT INTO comments",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1375,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.REPLY_TABLE",
+            "Value": "INSERT INTO comment_replies",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1467,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "INSERT INTO DatabaseConstants.NOTIFY_DISMISS_TABLE",
+            "Value": "INSERT INTO notify_dimiss",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1474,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_FEED_ID = ?",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE {?}",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 891,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_FEED_ID IN (?, ?, ...)",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE JOIN DatabaseConstants.STORIES_ON_SOCIALFEED_MAP WHERE DatabaseConstants.SOCIALFEED_USER_ID = ?",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE 1",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE JOIN DatabaseConstants.STORIES_ON_SOCIALFEED_MAP WHERE 1",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_LAST_READ_DATE > 0",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.vSTORY_STARRED = 1",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_INFREQUENT = 1",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_STARRED = 1 AND DatabaseConstants.STORY_USER_TAGS LIKE ?",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE INNER JOIN DatabaseConstants.STORY_TABLE ON DatabaseConstants.STORY_TABLE.DatabaseConstants.STORY_ID = DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE.DatabaseConstants.SOCIALFEED_STORY_STORYID",
-            "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "ExecLine": 891,
-            "FoundByMethod": "Manual"
-        },
-        {
-            "Value": "SELECT DatabaseConstants.STORY_SHARED_USER_IDS FROM DatabaseConstants.STORY_TABLE WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "SELECT DatabaseConstants.STORY_SHARED_USER_IDS FROM stories WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 983,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.SOCIALFEED_TABLE WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "Value": "SELECT * FROM social_feeds WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1055,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.STARREDCOUNTS_TABLE WHERE DatabaseConstants.STARREDCOUNTS_TAG = ?",
+            "Value": "SELECT * FROM starred_counts WHERE DatabaseConstants.STARREDCOUNTS_TAG = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1066,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.SYNC_METADATA_TABLE WHERE DatabaseConstants.SYNC_METADATA_KEY = DatabaseConstants.SYNC_METADATA_KEY_SESSION_FEED_SET",
+            "Value": "SELECT * FROM sync_metadata WHERE DatabaseConstants.SYNC_METADATA_KEY = DatabaseConstants.SYNC_METADATA_KEY_SESSION_FEED_SET",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1299,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.CLASSIFIER_TABLE WHERE DatabaseConstants.CLASSIFIER_ID = ?",
+            "Value": "SELECT * FROM classifiers WHERE DatabaseConstants.CLASSIFIER_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1322,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ?",
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.COMMENT_STORYID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1332,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1344,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ?",
+            "Value": "SELECT * FROM DatabaseConstants.comments WHERE DatabaseConstants.COMMENT_STORYID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1397,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.USER_TABLE WHERE DatabaseConstants.USER_USERID = ? AND  DatabaseConstants.COMMENT_USERID = ?",
+            "Value": "SELECT * FROM user_table WHERE DatabaseConstants.USER_USERID = ? AND  DatabaseConstants.COMMENT_USERID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1427,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.REPLY_TABLE WHERE DatabaseConstants.REPLY_COMMENTID = ? ORDER BY DatabaseConstants.REPLY_DATE ASC",
+            "Value": "SELECT * FROM comment_replies WHERE DatabaseConstants.REPLY_COMMENTID = ? ORDER BY DatabaseConstants.REPLY_DATE ASC",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1436,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.COMMENT_TABLE WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.COMMENT_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1447,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT * FROM DatabaseConstants.NOTIFY_DISMISS_TABLE WHERE DatabaseConstants.NOTIFY_DISMISS_STORY_HASH = ?",
+            "Value": "SELECT * FROM notify_dimiss WHERE DatabaseConstants.NOTIFY_DISMISS_STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1480,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT DatabaseConstants.FEED_TAGS_TAG FROM DatabaseConstants.FEED_TAGS_TABLE WHERE DatabaseConstants.FEED_TAGS_FEEDID = ?",
+            "Value": "SELECT DatabaseConstants.FEED_TAGS_TAG FROM feed_tags WHERE DatabaseConstants.FEED_TAGS_FEEDID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1513,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM DatabaseConstants.FEED_AUTHORS_TABLE",
+            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM feed_authors",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1545,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_LAST_READ_DATE = DATE('now') WHERE DatabaseConstants.STORY_LAST_READ_DATE < 1 AND DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_LAST_READ_DATE = DATE('now') WHERE DatabaseConstants.STORY_LAST_READ_DATE < 1 AND DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 583,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = true WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_READ = true WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 593,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 609,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 625,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SET DatabaseConstants.FEED_ACTIVE = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 637,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 663,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_READ = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 711,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_READ = ? WHERE ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_READ = ? WHERE ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 771,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET ? = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SET ? = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 833,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.SOCIALFEED_TABLE SET ? = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "Value": "UPDATE social_feeds SET ? = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 837,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.FEED_TABLE SET DatabaseConstants.FEED_NEGATIVE_COUNT = ?, DatabaseConstants.FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SET DatabaseConstants.FEED_NEGATIVE_COUNT = ?, DatabaseConstants.FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 870,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.SOCIALFEED_TABLE SET DatabaseConstants.SOCIAL_FEED_NEGATIVE_COUNT = ?, DatabaseConstants.SOCIAL_FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.SOCIAL_FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
+            "Value": "UPDATE social_feeds SET DatabaseConstants.SOCIAL_FEED_NEGATIVE_COUNT = ?, DatabaseConstants.SOCIAL_FEED_NEUTRAL_COUNTWHERE = ?, DatabaseConstants.SOCIAL_FEED_POSITIVE_COUNT = ? WHERE DatabaseConstants.SOCIAL_FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 879,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_INFREQUENT = false",
+            "Value": "UPDATE user_table SET DatabaseConstants.STORY_INFREQUENT = false",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 900,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_USER_TAGS = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_USER_TAGS = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 956,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_STARRED = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 966,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.STORY_TABLE SET DatabaseConstants.STORY_SHARED_USER_IDS = ? WHERE DatabaseConstants.STORY_HASH = ?",
+            "Value": "UPDATE stories SET DatabaseConstants.STORY_SHARED_USER_IDS = ? WHERE DatabaseConstants.STORY_HASH = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1007,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.REPLY_TABLE SET DatabaseConstants.REPLY_TEXT = ? WHERE DatabaseConstants.REPLY_ID = ?",
+            "Value": "UPDATE comment_replies SET DatabaseConstants.REPLY_TEXT = ? WHERE DatabaseConstants.REPLY_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1382,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.COMMENT_TABLE SET DatabaseConstants.COMMENT_LIKING_USERS = ? WHERE DatabaseConstants.COMMENT_ID = ?",
+            "Value": "UPDATE comments SET DatabaseConstants.COMMENT_LIKING_USERS = ? WHERE DatabaseConstants.COMMENT_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1421,
             "FoundByMethod": "Manual"
         },
         {
-            "Value": "UPDATE DatabaseConstants.FEED_TABLE SETDatabaseConstants.FEED_TITLE = ? WHERE DatabaseConstants.FEED_ID = ?",
+            "Value": "UPDATE feeds SETDatabaseConstants.FEED_TITLE = ? WHERE DatabaseConstants.FEED_ID = ?",
             "ExecFile": "/Users/maxime/eclipse-workspace/Newsblur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
             "ExecLine": 1564,
             "FoundByMethod": "Manual"
