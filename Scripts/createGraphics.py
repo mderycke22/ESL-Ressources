@@ -9,6 +9,7 @@ def count_query_types(file_path):
         data = json.load(file)
           
     table_stats = defaultdict(lambda: {'select': 0, 'update': 0, 'delete': 0, 'insert': 0, 'create': 0, 'drop': 0})
+    file_stats = defaultdict(int)
     
     # Regular expressions to match different query types and extract table names (without that the algorithm will not work eg. a create queries with a attribute name like updated_seconds will maybe not be recognized as create query)
     patterns = {
@@ -22,15 +23,17 @@ def count_query_types(file_path):
     
     for query in data.get("Queries", []):
         query_value = query.get("Value", "").strip().lower()
-        
+        exec_file = query.get("ExecFile", "Unknown")
+
         for query_type, pattern in patterns.items():
             match = pattern.search(query_value)
             if match:
                 table_name = match.group(1) if query_type != 'drop' else match.group(2)
                 table_stats[table_name][query_type] += 1
+                file_stats[exec_file] += 1
                 break
     
-    return table_stats
+    return table_stats, file_stats
 
 if __name__ == "__main__":
     # Define file paths
@@ -38,7 +41,7 @@ if __name__ == "__main__":
     file_path = os.path.join(script_dir, 'queries_stats.json')
     
     # Get query counts and formatted queries
-    table_stats = count_query_types(file_path)
+    table_stats, file_stats = count_query_types(file_path)
     
     # Prepare data for the stacked bar plot
     tables = list(table_stats.keys())
@@ -66,4 +69,15 @@ if __name__ == "__main__":
     plt.xticks(x, tables, rotation='vertical')
     plt.legend()
     plt.tight_layout()
+    plt.show()
+    
+    # Prepare data for the pie chart
+    labels = list(file_stats.keys())
+    sizes = list(file_stats.values())
+    
+    # Create the pie chart
+    plt.figure(figsize=(10, 7))
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    plt.title('Query Distribution by ExecFile')
     plt.show()
