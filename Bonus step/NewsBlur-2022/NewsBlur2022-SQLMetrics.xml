@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<Metrics>
+  <Database>
+    <Statement Id="111" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="93">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="119" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="114">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="124" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="114">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="129" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="130">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="131" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="179">
+      <Metrics>
+        <Metric name="Nested Queries" value="1"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="140" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="203">
+    </Statement>
+    <Statement Id="155" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="285">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="163" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="298">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="168" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="543">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="174" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="733">
+    </Statement>
+    <Statement Id="183" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="733">
+    </Statement>
+    <Statement Id="191" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="912">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="199" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="920">
+    </Statement>
+    <Statement Id="210" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="926">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="216" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="976">
+    </Statement>
+    <Statement Id="227" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="1019">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="235" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="1035">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="247" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="1118">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="249" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="1209">
+    </Statement>
+    <Statement Id="253" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="18">
+    </Statement>
+    <Statement Id="322" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="19">
+    </Statement>
+    <Statement Id="347" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="20">
+    </Statement>
+    <Statement Id="363" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="21">
+    </Statement>
+    <Statement Id="379" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="22">
+    </Statement>
+    <Statement Id="473" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="23">
+    </Statement>
+    <Statement Id="479" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="24">
+    </Statement>
+    <Statement Id="488" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="25">
+    </Statement>
+    <Statement Id="525" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="26">
+    </Statement>
+    <Statement Id="550" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="27">
+    </Statement>
+    <Statement Id="565" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="28">
+    </Statement>
+    <Statement Id="578" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="29">
+    </Statement>
+    <Statement Id="591" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="30">
+    </Statement>
+    <Statement Id="608" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="31">
+    </Statement>
+    <Statement Id="625" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="32">
+    </Statement>
+    <Statement Id="635" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="33">
+    </Statement>
+    <Statement Id="644" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="34">
+    </Statement>
+    <Statement Id="653" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="35">
+    </Statement>
+    <Statement Id="663" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="41">
+    </Statement>
+    <Statement Id="665" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="42">
+    </Statement>
+    <Statement Id="667" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="43">
+    </Statement>
+    <Statement Id="669" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="44">
+    </Statement>
+    <Statement Id="671" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="45">
+    </Statement>
+    <Statement Id="673" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="46">
+    </Statement>
+    <Statement Id="675" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="47">
+    </Statement>
+    <Statement Id="677" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="48">
+    </Statement>
+    <Statement Id="679" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="49">
+    </Statement>
+    <Statement Id="681" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="50">
+    </Statement>
+    <Statement Id="683" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="51">
+    </Statement>
+    <Statement Id="685" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="52">
+    </Statement>
+    <Statement Id="687" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="53">
+    </Statement>
+    <Statement Id="689" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="54">
+    </Statement>
+    <Statement Id="691" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="55">
+    </Statement>
+    <Statement Id="693" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="56">
+    </Statement>
+    <Statement Id="695" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="57">
+    </Statement>
+    <Statement Id="697" Path="/Users/maxime/eclipse-workspace/NewsBlur2022/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="58">
+    </Statement>
+</Database>  
+</Metrics>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<JavaMetrics>
+<JavaElement Kind="JavaProject" Name="NewsBlur2013">
+  <Metrics>
+    <Metric name="Hotspots" value="37"></Metric>
+    <Metric name="Queries" value="47"></Metric>
+    <Metric name="Inserts" value="0"></Metric>
+    <Metric name="Selects" value="11"></Metric>
+    <Metric name="Updates" value="2"></Metric>
+    <Metric name="Deletes" value="1"></Metric>
+  </Metrics>
+  <Children>
+    <JavaElement Kind="PackageFragmentRoot" Name="src">
+      <Metrics>
+        <Metric name="Hotspots" value="37"></Metric>
+        <Metric name="Queries" value="47"></Metric>
+        <Metric name="Inserts" value="0"></Metric>
+        <Metric name="Selects" value="11"></Metric>
+        <Metric name="Updates" value="2"></Metric>
+        <Metric name="Deletes" value="1"></Metric>
+      </Metrics>
+      <Children>
+        <JavaElement Kind="PackageFragment" Name="com.newsblur.database">
+          <Metrics>
+            <Metric name="Hotspots" value="37"></Metric>
+            <Metric name="Queries" value="47"></Metric>
+            <Metric name="Inserts" value="0"></Metric>
+            <Metric name="Selects" value="11"></Metric>
+            <Metric name="Updates" value="2"></Metric>
+            <Metric name="Deletes" value="1"></Metric>
+          </Metrics>
+          <Children>
+            <JavaElement Kind="CompilationUnit" Name="BlurDatabase.java">
+              <Metrics>
+                <Metric name="Hotspots" value="22"></Metric>
+                <Metric name="Queries" value="22"></Metric>
+                <Metric name="Inserts" value="0"></Metric>
+                <Metric name="Selects" value="0"></Metric>
+                <Metric name="Updates" value="0"></Metric>
+                <Metric name="Deletes" value="0"></Metric>
+              </Metrics>
+              <Children>
+              </Children>
+            </JavaElement>
+            <JavaElement Kind="CompilationUnit" Name="FeedProvider.java">
+              <Metrics>
+                <Metric name="Hotspots" value="15"></Metric>
+                <Metric name="Queries" value="25"></Metric>
+                <Metric name="Inserts" value="0"></Metric>
+                <Metric name="Selects" value="11"></Metric>
+                <Metric name="Updates" value="2"></Metric>
+                <Metric name="Deletes" value="1"></Metric>
+              </Metrics>
+              <Children>
+              </Children>
+            </JavaElement>
+          </Children>
+        </JavaElement>
+      </Children>
+    </JavaElement>
+  </Children>
+</JavaElement>
+</JavaMetrics>

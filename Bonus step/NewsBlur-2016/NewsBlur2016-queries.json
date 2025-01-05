@@ -1,0 +1,728 @@
+{
+  "Queries" : [ {
+    "id" : "1",
+    "Value" : "SELECT sqlite_version() AS sqlite_version",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "90",
+    "ExecString" : "dbRO.rawQuery(\"SELECT sqlite_version() AS sqlite_version\",null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getEngineVersion()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 87,
+      "callLine" : 90
+    } ]
+  }, {
+    "id" : "2",
+    "Value" : "SELECT _id FROM feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "104",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getAllFeeds()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 101,
+      "callLine" : 104
+    } ]
+  }, {
+    "id" : "3",
+    "Value" : "SELECT _id FROM social_feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "116",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 113,
+      "callLine" : 116
+    } ]
+  }, {
+    "id" : "4",
+    "Value" : "DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "163",
+    "ExecString" : "dbRW.execSQL(q)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 158,
+      "callLine" : 163
+    } ]
+  }, {
+    "id" : "5",
+    "Value" : "VACUUM",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "167",
+    "ExecString" : "dbRW.execSQL(\"VACUUM\")",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.vacuum()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 166,
+      "callLine" : 167
+    } ]
+  }, {
+    "id" : "6",
+    "Value" : "SELECT story_hash FROM stories WHERE feed_id = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "258",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{feedId})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryHashesForFeed(java.lang.String)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 254,
+      "callLine" : 258
+    } ]
+  }, {
+    "id" : "7",
+    "Value" : "SELECT story_hash FROM stories WHERE read = 0",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "273",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 269,
+      "callLine" : 273
+    } ]
+  }, {
+    "id" : "8",
+    "Value" : "SELECT _id FROM feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "440",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(com.newsblur.domain.Story[])",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 431,
+      "callLine" : 440
+    } ]
+  }, {
+    "id" : "9",
+    "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "577",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 511,
+      "callLine" : 577
+    } ]
+  }, {
+    "id" : "10",
+    "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "577",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 511,
+      "callLine" : 577
+    } ]
+  }, {
+    "id" : "11",
+    "Value" : "{{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "582",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 511,
+      "callLine" : 582
+    } ]
+  }, {
+    "id" : "12",
+    "Value" : "",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "737",
+    "ExecString" : "dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[selArgs.size()]))",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 729,
+      "callLine" : 737
+    } ]
+  }, {
+    "id" : "13",
+    "Value" : "SELECT * FROM story_actions",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "749",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActions(boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 747,
+      "callLine" : 749
+    } ]
+  }, {
+    "id" : "14",
+    "Value" : "UPDATE starred_counts SET count = count{{na}} WHERE tag = '___TOTAL_STARRED'",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "789",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,boolean)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 756,
+      "callLine" : 789
+    } ]
+  }, {
+    "id" : "15",
+    "Value" : "SELECT story_text FROM storytext WHERE story_hash = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "828",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 824,
+      "callLine" : 828
+    } ]
+  }, {
+    "id" : "16",
+    "Value" : "SELECT content FROM stories WHERE story_hash = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "844",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 840,
+      "callLine" : 844
+    } ]
+  }, {
+    "id" : "17",
+    "Value" : "INSERT INTO reading_session (session_story_hash) ",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "990",
+    "ExecString" : "dbRW.execSQL(q.toString(),selArgs.toArray(new String[selArgs.size()]))",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter,com.newsblur.util.ReadFilter)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 972,
+      "callLine" : 990
+    } ]
+  }, {
+    "id" : "18",
+    "Value" : "{{na}} ORDER BY last_read_date DESC",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1218",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1209,
+      "callLine" : 1218
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 946,
+      "callLine" : 959
+    } ]
+  }, {
+    "id" : "19",
+    "Value" : "{{na}} ORDER BY {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1218",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1209,
+      "callLine" : 1218
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 946,
+      "callLine" : 959
+    } ]
+  }, {
+    "id" : "20",
+    "Value" : "{{na}} ORDER BY last_read_date DESC",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1220",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1209,
+      "callLine" : 1220
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 946,
+      "callLine" : 959
+    } ]
+  }, {
+    "id" : "21",
+    "Value" : "{{na}} ORDER BY {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1220",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1209,
+      "callLine" : 1220
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 946,
+      "callLine" : 959
+    } ]
+  }, {
+    "id" : "22",
+    "Value" : "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, updated_seconds)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "18",
+    "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 18
+    } ]
+  }, {
+    "id" : "23",
+    "Value" : "CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "19",
+    "ExecString" : "db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 19
+    } ]
+  }, {
+    "id" : "24",
+    "Value" : "CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "20",
+    "ExecString" : "db.execSQL(DatabaseConstants.FOLDER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 20
+    } ]
+  }, {
+    "id" : "25",
+    "Value" : "CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "21",
+    "ExecString" : "db.execSQL(DatabaseConstants.USER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 21
+    } ]
+  }, {
+    "id" : "26",
+    "Value" : "CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "22",
+    "ExecString" : "db.execSQL(DatabaseConstants.STORY_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 22
+    } ]
+  }, {
+    "id" : "27",
+    "Value" : "CREATE TABLE reading_session (session_story_hash TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "23",
+    "ExecString" : "db.execSQL(DatabaseConstants.READING_SESSION_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 23
+    } ]
+  }, {
+    "id" : "28",
+    "Value" : "CREATE TABLE storytext (story_hash TEXT, story_text TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "24",
+    "ExecString" : "db.execSQL(DatabaseConstants.STORY_TEXT_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 24
+    } ]
+  }, {
+    "id" : "29",
+    "Value" : "CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "25",
+    "ExecString" : "db.execSQL(DatabaseConstants.COMMENT_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 25
+    } ]
+  }, {
+    "id" : "30",
+    "Value" : "CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "26",
+    "ExecString" : "db.execSQL(DatabaseConstants.REPLY_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 26
+    } ]
+  }, {
+    "id" : "31",
+    "Value" : "CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "27",
+    "ExecString" : "db.execSQL(DatabaseConstants.CLASSIFIER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 27
+    } ]
+  }, {
+    "id" : "32",
+    "Value" : "CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "28",
+    "ExecString" : "db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 28
+    } ]
+  }, {
+    "id" : "33",
+    "Value" : "CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "29",
+    "ExecString" : "db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 29
+    } ]
+  }, {
+    "id" : "34",
+    "Value" : "CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, mark_read INTEGER DEFAULT 0, mark_unread INTEGER DEFAULT 0, save INTEGER DEFAULT 0, unsave INTEGER DEFAULT 0, share INTEGER DEFAULT 0, unshare INTEGER DEFAULT 0, like_comment INTEGER DEFAULT 0, unlike_comment INTEGER DEFAULT 0, reply INTEGER DEFAULT 0, comment_text TEXT, story_hash TEXT, feed_id TEXT, include_older INTEGER, include_newer INTEGER, story_id TEXT, source_user_id TEXT, comment_id TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "30",
+    "ExecString" : "db.execSQL(DatabaseConstants.ACTION_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 30
+    } ]
+  }, {
+    "id" : "35",
+    "Value" : "DROP TABLE IF EXISTS feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "36",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 36
+    } ]
+  }, {
+    "id" : "36",
+    "Value" : "DROP TABLE IF EXISTS social_feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "37",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 37
+    } ]
+  }, {
+    "id" : "37",
+    "Value" : "DROP TABLE IF EXISTS folders",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "38",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 38
+    } ]
+  }, {
+    "id" : "38",
+    "Value" : "DROP TABLE IF EXISTS stories",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "39",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 39
+    } ]
+  }, {
+    "id" : "39",
+    "Value" : "DROP TABLE IF EXISTS reading_session",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "40",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 40
+    } ]
+  }, {
+    "id" : "40",
+    "Value" : "DROP TABLE IF EXISTS storytext",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "41",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 41
+    } ]
+  }, {
+    "id" : "41",
+    "Value" : "DROP TABLE IF EXISTS user_table",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "42",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.USER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 42
+    } ]
+  }, {
+    "id" : "42",
+    "Value" : "DROP TABLE IF EXISTS comments",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "43",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 43
+    } ]
+  }, {
+    "id" : "43",
+    "Value" : "DROP TABLE IF EXISTS comment_replies",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "44",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.REPLY_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 44
+    } ]
+  }, {
+    "id" : "44",
+    "Value" : "DROP TABLE IF EXISTS classifiers",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "45",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 45
+    } ]
+  }, {
+    "id" : "45",
+    "Value" : "DROP TABLE IF EXISTS socialfeed_story_map",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "46",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 46
+    } ]
+  }, {
+    "id" : "46",
+    "Value" : "DROP TABLE IF EXISTS starred_counts",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "47",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 47
+    } ]
+  }, {
+    "id" : "47",
+    "Value" : "DROP TABLE IF EXISTS story_actions",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "48",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.ACTION_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 33,
+      "callLine" : 48
+    } ]
+  } ]
+}

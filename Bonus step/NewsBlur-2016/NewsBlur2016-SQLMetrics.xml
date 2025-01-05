@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<Metrics>
+  <Database>
+    <Statement Id="111" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="90">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="116" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="104">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="121" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="116">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="123" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="163">
+      <Metrics>
+        <Metric name="Nested Queries" value="1"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="138" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="258">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="146" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="273">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="151" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="440">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="157" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="577">
+    </Statement>
+    <Statement Id="166" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="577">
+    </Statement>
+    <Statement Id="174" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="749">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="180" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="789">
+    </Statement>
+    <Statement Id="191" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="828">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="199" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="844">
+      <Metrics>
+        <Metric name="Fields" value="1"></Metric>
+        <Metric name="Nested Queries" value="0"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
+    </Statement>
+    <Statement Id="201" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java" Line="990">
+    </Statement>
+    <Statement Id="205" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="18">
+    </Statement>
+    <Statement Id="255" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="19">
+    </Statement>
+    <Statement Id="280" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="20">
+    </Statement>
+    <Statement Id="296" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="21">
+    </Statement>
+    <Statement Id="312" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="22">
+    </Statement>
+    <Statement Id="397" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="23">
+    </Statement>
+    <Statement Id="403" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="24">
+    </Statement>
+    <Statement Id="412" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="25">
+    </Statement>
+    <Statement Id="446" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="26">
+    </Statement>
+    <Statement Id="468" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="27">
+    </Statement>
+    <Statement Id="483" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="28">
+    </Statement>
+    <Statement Id="496" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="29">
+    </Statement>
+    <Statement Id="509" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="30">
+    </Statement>
+    <Statement Id="589" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="36">
+    </Statement>
+    <Statement Id="591" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="37">
+    </Statement>
+    <Statement Id="593" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="38">
+    </Statement>
+    <Statement Id="595" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="39">
+    </Statement>
+    <Statement Id="597" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="40">
+    </Statement>
+    <Statement Id="599" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="41">
+    </Statement>
+    <Statement Id="601" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="42">
+    </Statement>
+    <Statement Id="603" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="43">
+    </Statement>
+    <Statement Id="605" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="44">
+    </Statement>
+    <Statement Id="607" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="45">
+    </Statement>
+    <Statement Id="609" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="46">
+    </Statement>
+    <Statement Id="611" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="47">
+    </Statement>
+    <Statement Id="613" Path="/Users/maxime/eclipse-workspace/NewsBlur2016/NewsBlur/src/com/newsblur/database/BlurDatabase.java" Line="48">
+    </Statement>
+</Database>  
+</Metrics>
