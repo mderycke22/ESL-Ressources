@@ -1,0 +1,27 @@
+{
+"select":{
+    "feeds": ["_id", "notification_filter", "active"],
+    "social_feeds": ["*"],
+    "stories": ["story_hash", "content", "shared_user_ids", "read", "starred"],
+    "story_actions": ["*"],
+    "story_text": ["story_text", "story_hash"],
+    "starred_counts": ["*"],
+    "sync_metadata": ["*"],
+    "classifiers": ["*"],
+    "comments": ["*"],
+    "user_table": ["*"],
+    "comment_replies": ["*"],
+    "notify_dimiss": ["*"],
+    "feed_tags" : ["tag", "feed_id"],
+    "feed_author" : ["author"]
+},
+"update":{
+    "feeds": ["nt", "_id", "ps", "active", "ng", "feed_name"],
+    "story_actions": ["tried", "_id"],
+    "starred_counts": ["count", "tag"],
+    "stories": ["last_read_date", "story_hash", "read", "starred", "infrequent", "starred", "shared_user_ids"],
+    "social_feeds": ["_ids","nt", "ps", "nt"],
+    "comment_replies": ["rely_text", "id"],
+    "comments": ["liking_users", "_id"]
+}
+}
