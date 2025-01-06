@@ -26,8 +26,8 @@ Contient des informations nous ayant aidé à réaliser l'analyse manuelle.
 
 ### Data
 
-Contient des exemples de données dans la base de données du projet NewsBlur, après récoltées après avoir utilisé l'application.
+Contient des exemples de données dans la base de données du projet NewsBlur, récoltées après avoir utilisé l'application.
 
 ### Bonus step
 
-Contient des données d'analyse des 3 versions de NewsBlur analysée dans l'étape bonus. Pour chaque version, les données sont des exports de métriques de SQLInspect, le code DDL et le schéma physique.
+Contient des données d'analyse des 3 versions de NewsBlur analysées dans l'étape bonus. Pour chaque version, les données sont des exports de métriques de SQLInspect, le code DDL et le schéma physique.
