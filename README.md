@@ -30,4 +30,4 @@ Contient des exemples de données dans la base de données du projet NewsBlur, r
 
 ### Bonus step
 
-Contient des données d'analyse des 3 versions de NewsBlur analysée dans l'étape bonus. Pour chaque version, les données sont des exports de métriques de SQLInspect, le code DDL et le schéma physique.
+Contient des données d'analyse des 3 versions de NewsBlur analysées dans l'étape bonus. Pour chaque version, les données sont des exports de métriques de SQLInspect, le code DDL et le schéma physique.
