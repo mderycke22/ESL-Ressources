@@ -26,7 +26,7 @@ Contient des informations nous ayant aidé à réaliser l'analyse manuelle.
 
 ### Data
 
-Contient des exemples de données dans la base de données du projet NewsBlur, après récoltées après avoir utilisé l'application.
+Contient des exemples de données dans la base de données du projet NewsBlur, récoltées après avoir utilisé l'application.
 
 ### Bonus step
 
