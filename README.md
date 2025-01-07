@@ -1,4 +1,4 @@
-# Ressources du projet d'évolution de systèmes logiciels [INFOM218]
+# Ressources du projet d'évolution de systèmes logiciels [INFOM218] - DBRE sur l'application NewsBlur
 
 ## Contributeurs
 
