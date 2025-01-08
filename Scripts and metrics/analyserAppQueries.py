@@ -33,7 +33,7 @@ def count_query_types(file_path):
 if __name__ == "__main__":
     # Define file paths
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.join(script_dir, 'app_queries.json')
+    file_path = os.path.join(script_dir, 'queries_stats.json')
     print(f"Looking for file at: {file_path}")
     
     # Get query counts and formatted queries
